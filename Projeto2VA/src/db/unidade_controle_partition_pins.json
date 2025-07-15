@@ -1,0 +1,81 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "RegDest",
+					"strict" : false
+				},
+				{
+					"name" : "Branch",
+					"strict" : false
+				},
+				{
+					"name" : "MemRead",
+					"strict" : false
+				},
+				{
+					"name" : "MemToReg[0]",
+					"strict" : false
+				},
+				{
+					"name" : "MemToReg[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUOp[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUOp[1]",
+					"strict" : false
+				},
+				{
+					"name" : "MemWrite",
+					"strict" : false
+				},
+				{
+					"name" : "ALUSrc",
+					"strict" : false
+				},
+				{
+					"name" : "RegWrite",
+					"strict" : false
+				},
+				{
+					"name" : "Jump",
+					"strict" : false
+				},
+				{
+					"name" : "Jal_Dest",
+					"strict" : false
+				},
+				{
+					"name" : "instrucao[28]",
+					"strict" : false
+				},
+				{
+					"name" : "instrucao[26]",
+					"strict" : false
+				},
+				{
+					"name" : "instrucao[27]",
+					"strict" : false
+				},
+				{
+					"name" : "instrucao[30]",
+					"strict" : false
+				},
+				{
+					"name" : "instrucao[29]",
+					"strict" : false
+				},
+				{
+					"name" : "instrucao[31]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -2,7 +2,7 @@
 
 module ctrl(
 
-	input[31:0] instrucao, //vetor de bits do op, vai receber a instrucao
+	input[31:0] instrucao //vetor de bits do op, vai receber a instrucao
 	output reg RegDest,
 	output reg Branch,
 	output reg MemRead,
@@ -52,7 +52,7 @@ module ctrl(
 			6'b100011: begin 
 				RegWrite = 1'b1;
 				MemRead = 1'b1;
-				MemToReg = 2'b01;
+				MemToReg = 1'b1;
 				ALUSrc = 1'b1;
 				ALUOp = 2'b00; //Soma
 				
@@ -63,7 +63,7 @@ module ctrl(
 			6'b101011: begin
 				MemWrite = 1'b1;
 				ALUSrc = 1'b1;
-				ALUOp = 2'b00; //Soma
+				ALUOp = 1'b00; //Soma
 				
 			end
 			
@@ -87,12 +87,12 @@ module ctrl(
 			6'b000011: begin
 				Jump = 1'b1;
 				RegWrite = 1'b1;
-				MemToReg = 2'b10;
+				MemToReg = 1'b1;
 				Jal_Dest = 1'b1; //deve habilitar o pc+4 em $ra pra voltar depois
 				
 			end
 			
-			default: begin
+			default begin:
 				
 				RegDest = 1'b0;   //muda nada, mantem
 				Branch = 1'b0;
