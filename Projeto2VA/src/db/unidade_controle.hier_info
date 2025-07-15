@@ -31,17 +31,17 @@ instrucao[28] => Decoder0.IN3
 instrucao[29] => Decoder0.IN2
 instrucao[30] => Decoder0.IN1
 instrucao[31] => Decoder0.IN0
-RegDest <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
-Branch <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
-MemRead <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
-MemToReg[0] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
-MemToReg[1] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
-ALUOp[0] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
-ALUOp[1] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
-MemWrite <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
-ALUSrc <= ALUSrc.DB_MAX_OUTPUT_PORT_TYPE
-RegWrite <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
-Jump <= Jump.DB_MAX_OUTPUT_PORT_TYPE
-Jal_Dest <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+RegDest << Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+Branch << Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+MemRead << Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+MemToReg[0] << Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+MemToReg[1] << Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+ALUOp[0] << Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+ALUOp[1] << Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+MemWrite << Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+ALUSrc << ALUSrc.DB_MAX_OUTPUT_PORT_TYPE
+RegWrite << WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+Jump << Jump.DB_MAX_OUTPUT_PORT_TYPE
+Jal_Dest << Decoder0.DB_MAX_OUTPUT_PORT_TYPE
 
 
