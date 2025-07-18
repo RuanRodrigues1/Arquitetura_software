@@ -1,0 +1,15 @@
+// Projeto 2 VA - Arquitetura e Organização de Computadores - 2024.2
+// Alunos: Heitor Leander Feitosa da silva,
+                   Joao victor Morais Barreto da silva
+                   Mariane Elisa dos Santos Souza
+                   Samuel Roberto de Carvalho Bezerra
+// Descrição do arquivo:  (escrever o nome do módulo)
+
+
+module ula_ctrl(
+	parameter tamanho_instrucao = 32 // largura de bits
+)
+(
+	
+
+)
