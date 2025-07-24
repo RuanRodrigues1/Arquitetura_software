@@ -1,0 +1,401 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "ula_result_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ula_result_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ula_result_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ula_result_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ula_result_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ula_result_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ula_result_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ula_result_out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ula_result_out[8]",
+					"strict" : false
+				},
+				{
+					"name" : "ula_result_out[9]",
+					"strict" : false
+				},
+				{
+					"name" : "ula_result_out[10]",
+					"strict" : false
+				},
+				{
+					"name" : "ula_result_out[11]",
+					"strict" : false
+				},
+				{
+					"name" : "ula_result_out[12]",
+					"strict" : false
+				},
+				{
+					"name" : "ula_result_out[13]",
+					"strict" : false
+				},
+				{
+					"name" : "ula_result_out[14]",
+					"strict" : false
+				},
+				{
+					"name" : "ula_result_out[15]",
+					"strict" : false
+				},
+				{
+					"name" : "ula_result_out[16]",
+					"strict" : false
+				},
+				{
+					"name" : "ula_result_out[17]",
+					"strict" : false
+				},
+				{
+					"name" : "ula_result_out[18]",
+					"strict" : false
+				},
+				{
+					"name" : "ula_result_out[19]",
+					"strict" : false
+				},
+				{
+					"name" : "ula_result_out[20]",
+					"strict" : false
+				},
+				{
+					"name" : "ula_result_out[21]",
+					"strict" : false
+				},
+				{
+					"name" : "ula_result_out[22]",
+					"strict" : false
+				},
+				{
+					"name" : "ula_result_out[23]",
+					"strict" : false
+				},
+				{
+					"name" : "ula_result_out[24]",
+					"strict" : false
+				},
+				{
+					"name" : "ula_result_out[25]",
+					"strict" : false
+				},
+				{
+					"name" : "ula_result_out[26]",
+					"strict" : false
+				},
+				{
+					"name" : "ula_result_out[27]",
+					"strict" : false
+				},
+				{
+					"name" : "ula_result_out[28]",
+					"strict" : false
+				},
+				{
+					"name" : "ula_result_out[29]",
+					"strict" : false
+				},
+				{
+					"name" : "ula_result_out[30]",
+					"strict" : false
+				},
+				{
+					"name" : "ula_result_out[31]",
+					"strict" : false
+				},
+				{
+					"name" : "d_mem_read_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "d_mem_read_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "d_mem_read_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "d_mem_read_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "d_mem_read_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "d_mem_read_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "d_mem_read_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "d_mem_read_out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "d_mem_read_out[8]",
+					"strict" : false
+				},
+				{
+					"name" : "d_mem_read_out[9]",
+					"strict" : false
+				},
+				{
+					"name" : "d_mem_read_out[10]",
+					"strict" : false
+				},
+				{
+					"name" : "d_mem_read_out[11]",
+					"strict" : false
+				},
+				{
+					"name" : "d_mem_read_out[12]",
+					"strict" : false
+				},
+				{
+					"name" : "d_mem_read_out[13]",
+					"strict" : false
+				},
+				{
+					"name" : "d_mem_read_out[14]",
+					"strict" : false
+				},
+				{
+					"name" : "d_mem_read_out[15]",
+					"strict" : false
+				},
+				{
+					"name" : "d_mem_read_out[16]",
+					"strict" : false
+				},
+				{
+					"name" : "d_mem_read_out[17]",
+					"strict" : false
+				},
+				{
+					"name" : "d_mem_read_out[18]",
+					"strict" : false
+				},
+				{
+					"name" : "d_mem_read_out[19]",
+					"strict" : false
+				},
+				{
+					"name" : "d_mem_read_out[20]",
+					"strict" : false
+				},
+				{
+					"name" : "d_mem_read_out[21]",
+					"strict" : false
+				},
+				{
+					"name" : "d_mem_read_out[22]",
+					"strict" : false
+				},
+				{
+					"name" : "d_mem_read_out[23]",
+					"strict" : false
+				},
+				{
+					"name" : "d_mem_read_out[24]",
+					"strict" : false
+				},
+				{
+					"name" : "d_mem_read_out[25]",
+					"strict" : false
+				},
+				{
+					"name" : "d_mem_read_out[26]",
+					"strict" : false
+				},
+				{
+					"name" : "d_mem_read_out[27]",
+					"strict" : false
+				},
+				{
+					"name" : "d_mem_read_out[28]",
+					"strict" : false
+				},
+				{
+					"name" : "d_mem_read_out[29]",
+					"strict" : false
+				},
+				{
+					"name" : "d_mem_read_out[30]",
+					"strict" : false
+				},
+				{
+					"name" : "d_mem_read_out[31]",
+					"strict" : false
+				},
+				{
+					"name" : "current_pc_value_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "current_pc_value_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "current_pc_value_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "current_pc_value_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "current_pc_value_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "current_pc_value_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "current_pc_value_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "current_pc_value_out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "current_pc_value_out[8]",
+					"strict" : false
+				},
+				{
+					"name" : "current_pc_value_out[9]",
+					"strict" : false
+				},
+				{
+					"name" : "current_pc_value_out[10]",
+					"strict" : false
+				},
+				{
+					"name" : "current_pc_value_out[11]",
+					"strict" : false
+				},
+				{
+					"name" : "current_pc_value_out[12]",
+					"strict" : false
+				},
+				{
+					"name" : "current_pc_value_out[13]",
+					"strict" : false
+				},
+				{
+					"name" : "current_pc_value_out[14]",
+					"strict" : false
+				},
+				{
+					"name" : "current_pc_value_out[15]",
+					"strict" : false
+				},
+				{
+					"name" : "current_pc_value_out[16]",
+					"strict" : false
+				},
+				{
+					"name" : "current_pc_value_out[17]",
+					"strict" : false
+				},
+				{
+					"name" : "current_pc_value_out[18]",
+					"strict" : false
+				},
+				{
+					"name" : "current_pc_value_out[19]",
+					"strict" : false
+				},
+				{
+					"name" : "current_pc_value_out[20]",
+					"strict" : false
+				},
+				{
+					"name" : "current_pc_value_out[21]",
+					"strict" : false
+				},
+				{
+					"name" : "current_pc_value_out[22]",
+					"strict" : false
+				},
+				{
+					"name" : "current_pc_value_out[23]",
+					"strict" : false
+				},
+				{
+					"name" : "current_pc_value_out[24]",
+					"strict" : false
+				},
+				{
+					"name" : "current_pc_value_out[25]",
+					"strict" : false
+				},
+				{
+					"name" : "current_pc_value_out[26]",
+					"strict" : false
+				},
+				{
+					"name" : "current_pc_value_out[27]",
+					"strict" : false
+				},
+				{
+					"name" : "current_pc_value_out[28]",
+					"strict" : false
+				},
+				{
+					"name" : "current_pc_value_out[29]",
+					"strict" : false
+				},
+				{
+					"name" : "current_pc_value_out[30]",
+					"strict" : false
+				},
+				{
+					"name" : "current_pc_value_out[31]",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

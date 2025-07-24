@@ -1,113 +1,69 @@
-//Unidade de controle, pegando os bits mais significativos para identificar instrucoes
+/*
+PROJETO: Processador MIPS Monociclo
+
+AUTORES: DAVI PIRES, JUAN PABOLLO, VITHOR DE CASTRO, RUAN RODRIGUES
+
+DISCIPLINA: Arquitetura e Organização de Computadores
+
+SEMESTRE: 2025.1
+
+ARQUIVO: ctrl
+
+*/
 
 module ctrl(
-
-	input[31:0] instrucao, //vetor de bits do op, vai receber a instrucao
-	output reg RegDest,
-	output reg Branch,
-	output reg MemRead,
-	output reg[1:0] MemToReg, // 2 bits para escrever no pc no caso de tipo j
-	output reg[1:0] ALUOp,
-	output reg MemWrite,
-	output reg ALUSrc,
-	output reg RegWrite,
-	output reg Jump,	//sinal para tipo j
-   output reg Jal_Dest //sinal para tipo j
-
-
+	input[31:0] instrucao, output reg RegDest, output reg Branch, output reg MemRead,
+	
+	output reg MemToReg, output reg[2:0] ALUOp, output reg MemWrite, output reg [1:0] ALUSrc,
+	
+	output reg RegWrite, output reg Jump, output reg Jal_Dest, output reg jr_sel
 );
 
-	wire[5:0] opcode; //conjunto de 6 fios para opcode
+	wire[5:0] opcode = instrucao[31:26];
+	wire[5:0] func = instrucao[5:0];
+	
+	always@(*) begin
 
-	assign opcode = instrucao[31:26]; // atribui os fios aos bits do op code
-
-	always@(opcode) begin // cria um bloco que muda sempre que o opcode mudar
-
-		RegDest = 1'b0;   //numero binario de tamanho 1, 1 bit
-		Branch = 1'b0;
-		MemRead = 1'b0;
-		MemToReg = 2'b00;
-		ALUOp = 2'b00;
-		MemWrite = 1'b0;
-		ALUSrc = 1'b0;
-		RegWrite = 1'b0;
-		Jump = 1'b0;  
-		Jal_Dest = 1'b0;
+		RegDest=0; Branch=0; MemRead=0; MemToReg=0; ALUOp=3'bxxx; MemWrite=0; ALUSrc=2'b00; RegWrite=0; Jump=0; Jal_Dest=0; jr_sel = 0;
+		case(opcode)
 		
-		//todos os valores declarados acima
-		
-		case(opcode) //switch para identificar as instrucoes
-		
-		// instrucoes tipo R, op 0
-		
-			6'b000000: begin 
-				RegDest = 1'b1;
-				RegWrite = 1'b1;
-				ALUOp = 2'b10; //ULA deve acessar o funct
-			
+			6'b000000: begin // Tipo R
+				if (func == 6'b001000) begin
+					Jump = 1;
+					jr_sel = 1;
+				end
+				else begin
+					RegDest=1; RegWrite=1; ALUOp=3'b010;
+					if (func == 6'b000000) begin
+						ALUSrc=2'b10; // para SLL
+					end
+					else if (func == 6'b000011) begin
+						ALUSrc=2'b10; // Para SRA
+					end
+					else if (func == 6'b000100) begin
+						ALUSrc=2'b11; // Para caso de SLLV
+					end
+				end
 			end
 			
-			//lw
+			6'b001000: begin RegWrite=1; ALUSrc=2'b01; ALUOp=3'b000; end // ADDI
 			
-			6'b100011: begin 
-				RegWrite = 1'b1;
-				MemRead = 1'b1;
-				MemToReg = 2'b01;
-				ALUSrc = 1'b1;
-				ALUOp = 2'b00; //Soma
-				
-			end
+			6'b001101: begin RegWrite=1; ALUSrc=2'b01; ALUOp=3'b100; end // ORI
 			
-			//sw
+			6'b100011: begin RegWrite=1; MemRead=1; MemToReg=1; ALUSrc=2'b01; ALUOp=3'b000; end // LW
 			
-			6'b101011: begin
-				MemWrite = 1'b1;
-				ALUSrc = 1'b1;
-				ALUOp = 2'b00; //Soma
-				
-			end
+			6'b101011: begin MemWrite=1; ALUSrc=2'b01; ALUOp=3'b000; end // SW
 			
-			//beq
+			6'b001111: begin MemWrite=1; ALUOp=3'b000; end // LUI
 			
-			6'b000100: begin 
-				Branch = 1'b1;
-				ALUOp = 2'b01; //subtracao
-				
-			end
+			6'b000100: begin Branch=1; ALUOp=3'b001; end // BEQ
 			
-			//jump
+			6'b000101: begin Branch=1; ALUOp=3'b011; end // BNE
 			
-			6'b000010: begin
-				Jump = 1'b1;
-				
-			end
+			6'b000010: begin Jump=1; end // JUMP
 			
-			//jal
-			
-			6'b000011: begin
-				Jump = 1'b1;
-				RegWrite = 1'b1;
-				MemToReg = 2'b10;
-				Jal_Dest = 1'b1; //deve habilitar o pc+4 em $ra pra voltar depois
-				
-			end
-			
-			default: begin
-				
-				RegDest = 1'b0;   //muda nada, mantem
-				Branch = 1'b0;
-				MemRead = 1'b0;
-				MemToReg = 2'b00;
-				ALUOp = 2'b00;
-				MemWrite = 1'b0;
-				ALUSrc = 1'b0;
-				RegWrite = 1'b0;
-				Jump = 1'b0;  
-				Jal_Dest = 1'b0;
-			end
+			6'b000011: begin Jump=1; RegWrite=1; Jal_Dest=1; end // JAL
 			
 		endcase
-		
 	end
-	
 endmodule

@@ -1,14 +1,24 @@
+/*
+PROJETO: Processador MIPS Monociclo
 
+AUTORES: DAVI PIRES, JUAN PABOLLO, VITHOR DE CASTRO, RUAN RODRIGUES
+
+DISCIPLINA: Arquitetura e Organização de Computadores
+
+SEMESTRE: 2025.1
+
+ARQUIVO: Mux2x1
+
+*/
 
 module mux2x1 (entrada0, entrada1, seletor, saida);
     
-	//Descrição das entradas e saídas:
 	input wire [31:0] entrada0;  	   
    input wire [31:0] entrada1;  	   
-   input wire seletor;              // Sinal de seleção
-   output wire [31:0] saida;  	  		// Saída do mux
+   input wire seletor;              // seletor
+   output wire [31:0] saida;  	  		// saída 
 
-	//Comportamento:
-   assign saida = seletor ? entrada1 : entrada0; // Seleciona in2 se sel = 1, senão seleciona in1
+
+   assign saida = seletor ? entrada1 : entrada0;
 
 endmodule

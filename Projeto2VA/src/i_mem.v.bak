@@ -1,24 +1,27 @@
 
 
-module i_mem (endereco_PC, instrucao_out);
+module i_mem (pc_adress, inst_out);
 
-   // Descrição das entradas e saídas:
-   input wire [31:0] endereco_PC;  		// Endereço fornecido pelo PC
-   output reg [31:0] instrucao_out;   // Instrução de saída armazenada na posição especificada pelo endereco_pc
+   input wire [31:0] pc_adress;  		// Endereço do PC
 	
-	parameter MEMORIA_TAMANHO = 64;    // Definição do tamanho do array da memoria_ROM
+   output reg [31:0] inst_out;   // Instrução da posicao do pc
 	
-   // Declaração da memória ROM:
-   reg [31:0] memoria_ROM [0: MEMORIA_TAMANHO - 1];  	// cria um array de registros de 256 posições com cada posição podendo armazenar uma instrução de 32 bits     
+	parameter mem_size = 64;    // Tamanho da memoria
 	
-   // Inicializa a leitura da memória com os dados do arquivo externo "instruction.list":
+   reg [31:0] memoria_ROM [0: mem_size - 1];  
+	
+   // Le as instrucoes
    initial begin
+	
        $readmemb("instructions.list", memoria_ROM);
+		 
    end
 	
-	always @ (endereco_PC) begin
-		// Divide o endereco do PC por 4, para que assim seja possível acessar a posição correta da instrução no array 
-		instrucao_out = memoria_ROM[endereco_PC >> 2];
+	always @ (pc_adress) begin
+	
+		// Divide o PC por 4
+		inst_out = memoria_ROM[pc_adress >> 2];
+		
 	end
 
 endmodule

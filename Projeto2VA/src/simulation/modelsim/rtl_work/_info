@@ -8,75 +8,75 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/simulation/modelsim
+Z0 dC:/Users/davip/Desktop/Projeto MIPS - AOC/simulation/modelsim
 vctrl
-Z1 !s110 1753322220
+Z1 !s110 1753383646
 !i10b 1
-!s100 Vi?lZME6CG2ACeNQiz4I82
+!s100 `?9;gM>;3IBf=S[1D_a<_2
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IM0M9dclLg@GU1^j9I;XE;1
+IcNAooBBIhIkfD:lZm_9>b2
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1753313820
-8C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/ctrl.v
-FC:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/ctrl.v
-!i122 10
-L0 3 111
+w1753383523
+8C:/Users/davip/Desktop/Projeto MIPS - AOC/ctrl.v
+FC:/Users/davip/Desktop/Projeto MIPS - AOC/ctrl.v
+!i122 7
+L0 14 56
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1753322220.000000
-!s107 C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/ctrl.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src|C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/ctrl.v|
+Z5 !s108 1753383646.000000
+!s107 C:/Users/davip/Desktop/Projeto MIPS - AOC/ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/davip/Desktop/Projeto MIPS - AOC|C:/Users/davip/Desktop/Projeto MIPS - AOC/ctrl.v|
 !i113 1
 Z6 o-vlog01compat -work work
-Z7 !s92 -vlog01compat -work work +incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src
+Z7 !s92 -vlog01compat -work work {+incdir+C:/Users/davip/Desktop/Projeto MIPS - AOC}
 Z8 tCvgOpt 0
 vd_mem
 R1
 !i10b 1
-!s100 `9=j:cWN_^2NP:9eS[2ie1
+!s100 5<EkEl6`^0mB4IUP4a<Z23
 R2
-IzAQ8J49UCChMDomezzM:U3
+IJG=Pi2S:HPG3JQKZ9GkgP1
 R3
 R0
-w1753312422
-8C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v
-FC:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v
-!i122 9
-L0 2 28
+Z9 w1753358466
+8C:/Users/davip/Desktop/Projeto MIPS - AOC/d_mem.v
+FC:/Users/davip/Desktop/Projeto MIPS - AOC/d_mem.v
+!i122 8
+L0 13 13
 R4
 r1
 !s85 0
 31
 R5
-!s107 C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src|C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v|
+!s107 C:/Users/davip/Desktop/Projeto MIPS - AOC/d_mem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/davip/Desktop/Projeto MIPS - AOC|C:/Users/davip/Desktop/Projeto MIPS - AOC/d_mem.v|
 !i113 1
 R6
 R7
 R8
 vextensor_de_sinal
-R1
+Z10 !s110 1753383645
 !i10b 1
-!s100 czWPl^lC6D10YL0eQ43=F1
+!s100 o;UGlbOB0@gL6AeM7_a=K2
 R2
-I3OP_QOY]I>f58l23Hz4GS2
+I0Sd?l[gZR;2VaKTOaa6;F3
 R3
 R0
-Z9 w1753246684
-8C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/extensor_de_sinal.v
-FC:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/extensor_de_sinal.v
-!i122 8
-Z10 L0 3 10
+R9
+8C:/Users/davip/Desktop/Projeto MIPS - AOC/extensor_de_sinal.v
+FC:/Users/davip/Desktop/Projeto MIPS - AOC/extensor_de_sinal.v
+!i122 4
+L0 14 9
 R4
 r1
 !s85 0
 31
-R5
-!s107 C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/extensor_de_sinal.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src|C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/extensor_de_sinal.v|
+Z11 !s108 1753383645.000000
+!s107 C:/Users/davip/Desktop/Projeto MIPS - AOC/extensor_de_sinal.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/davip/Desktop/Projeto MIPS - AOC|C:/Users/davip/Desktop/Projeto MIPS - AOC/extensor_de_sinal.v|
 !i113 1
 R6
 R7
@@ -84,244 +84,195 @@ R8
 vi_mem
 R1
 !i10b 1
-!s100 2862Rd7LU>HhjF2bC?omY1
+!s100 zd_d==mRUD6d<7IPGFT_91
 R2
-IBbRXVSm>^K3R>``=1AIZ92
-R3
-R0
-w1753319412
-8C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/i_mem.v
-FC:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/i_mem.v
-!i122 11
-L0 3 22
-R4
-r1
-!s85 0
-31
-R5
-!s107 C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/i_mem.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src|C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/i_mem.v|
-!i113 1
-R6
-R7
-R8
-vMIPS
-R1
-!i10b 1
-!s100 KX=kb<c;Bkkc`1b8:cUPO1
-R2
-IgVcH:C9N0gKg4z>BI[GMm0
-R3
-R0
-w1753320772
-8C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/MIPS.v
-FC:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/MIPS.v
-!i122 7
-L0 2 177
-R4
-r1
-!s85 0
-31
-R5
-!s107 C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/MIPS.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src|C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/MIPS.v|
-!i113 1
-R6
-R7
-R8
-n@m@i@p@s
-vmux2x1
-R1
-!i10b 1
-!s100 [26kmGhj`A^1E`M1WYGU62
-R2
-I]<egOh[T[H88>0mX?jm`I2
+Ibo]_;KF5naFl;f:Ljf42_0
 R3
 R0
 R9
-8C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/mux2x1.v
-FC:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/mux2x1.v
-!i122 6
-L0 3 12
+8C:/Users/davip/Desktop/Projeto MIPS - AOC/i_mem.v
+FC:/Users/davip/Desktop/Projeto MIPS - AOC/i_mem.v
+!i122 9
+L0 14 25
 R4
 r1
 !s85 0
 31
 R5
-!s107 C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/mux2x1.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src|C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/mux2x1.v|
+!s107 C:/Users/davip/Desktop/Projeto MIPS - AOC/i_mem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/davip/Desktop/Projeto MIPS - AOC|C:/Users/davip/Desktop/Projeto MIPS - AOC/i_mem.v|
+!i113 1
+R6
+R7
+R8
+vmips_processor
+R10
+!i10b 1
+!s100 H:@LW68H8A71Fj^6c9?KC0
+R2
+I2Qnmh5VQ>a__EKkK4ZFEn2
+R3
+R0
+w1753383388
+8C:/Users/davip/Desktop/Projeto MIPS - AOC/mips_processor.v
+FC:/Users/davip/Desktop/Projeto MIPS - AOC/mips_processor.v
+!i122 5
+L0 13 122
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/davip/Desktop/Projeto MIPS - AOC/mips_processor.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/davip/Desktop/Projeto MIPS - AOC|C:/Users/davip/Desktop/Projeto MIPS - AOC/mips_processor.v|
+!i113 1
+R6
+R7
+R8
+vmux2x1
+R10
+!i10b 1
+!s100 k9abVGEMF?>e9AU;HW`5i3
+R2
+IHUFNhH0j6C]mY6lLa@LWD2
+R3
+R0
+R9
+8C:/Users/davip/Desktop/Projeto MIPS - AOC/mux2x1.v
+FC:/Users/davip/Desktop/Projeto MIPS - AOC/mux2x1.v
+!i122 3
+L0 14 11
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/davip/Desktop/Projeto MIPS - AOC/mux2x1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/davip/Desktop/Projeto MIPS - AOC|C:/Users/davip/Desktop/Projeto MIPS - AOC/mux2x1.v|
 !i113 1
 R6
 R7
 R8
 vPC
-R1
+R10
 !i10b 1
-!s100 6MXOM8KF]N8ZIMG3Zn?U:3
+!s100 N0F0IG3Q_@mfmj2gMf6oh0
 R2
-IGW33MJ5mBBVM=9UK;BIK31
+ImKZ5=DU:l?V`>0olz>THo2
 R3
 R0
-w1753249850
-8C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/PC.v
-FC:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/PC.v
-!i122 5
-L0 1 16
+R9
+8C:/Users/davip/Desktop/Projeto MIPS - AOC/PC.v
+FC:/Users/davip/Desktop/Projeto MIPS - AOC/PC.v
+!i122 2
+L0 14 15
 R4
 r1
 !s85 0
 31
-R5
-!s107 C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/PC.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src|C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/PC.v|
+R11
+!s107 C:/Users/davip/Desktop/Projeto MIPS - AOC/PC.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/davip/Desktop/Projeto MIPS - AOC|C:/Users/davip/Desktop/Projeto MIPS - AOC/PC.v|
 !i113 1
 R6
 R7
 R8
 n@p@c
 vregfile
-R1
+R10
 !i10b 1
-!s100 VFAa?A1?CYW7CJ=65EeW>3
+!s100 :N2jLiB1lQfmlSQM]kZ9K2
 R2
-I4:G7G;]8X`_RFQO@D?;Rd1
+Ij`dg]1QzaJ3>@YOd1g;Sl0
 R3
 R0
 R9
-8C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/regfile.v
-FC:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/regfile.v
-!i122 4
-L0 3 38
+8C:/Users/davip/Desktop/Projeto MIPS - AOC/regfile.v
+FC:/Users/davip/Desktop/Projeto MIPS - AOC/regfile.v
+!i122 1
+L0 14 55
 R4
 r1
 !s85 0
 31
-R5
-!s107 C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/regfile.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src|C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/regfile.v|
-!i113 1
-R6
-R7
-R8
-vshift_left_2
-R1
-!i10b 1
-!s100 N3JKmnBlLWPY;E1BA2[3Y0
-R2
-ITi87CQY@C4n5:kTiQzU;O2
-R3
-R0
-Z11 w1753246685
-8C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/shift_left_2.v
-FC:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/shift_left_2.v
-!i122 3
-L0 4 10
-R4
-r1
-!s85 0
-31
-Z12 !s108 1753322219.000000
-!s107 C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/shift_left_2.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src|C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/shift_left_2.v|
-!i113 1
-R6
-R7
-R8
-vsomador_PC_4
-Z13 !s110 1753322219
-!i10b 1
-!s100 hU:ghJdSH?76CT>QK1ckV3
-R2
-IT8klbNzVIFHg8FQRXI8kH0
-R3
-R0
 R11
-8C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/somador_PC_4.v
-FC:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/somador_PC_4.v
-!i122 2
-R10
-R4
-r1
-!s85 0
-31
-R12
-!s107 C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/somador_PC_4.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src|C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/somador_PC_4.v|
+!s107 C:/Users/davip/Desktop/Projeto MIPS - AOC/regfile.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/davip/Desktop/Projeto MIPS - AOC|C:/Users/davip/Desktop/Projeto MIPS - AOC/regfile.v|
 !i113 1
 R6
 R7
 R8
-nsomador_@p@c_4
-vteste_mips_toplevel
+vtb_mips_processor
 R1
 !i10b 1
-!s100 De1O;Yme`L?EW1b?mHDB02
+!s100 7R5HjW7YgG4[J1DYg<OjD0
 R2
-I`Wc?Nj`KC2zkH@OG0``]U1
+I1YFQOHQLHD_;Wd5^;X<a83
 R3
 R0
-w1753321037
-8C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/teste_mips_toplevel.v
-FC:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/teste_mips_toplevel.v
-!i122 12
-L0 3 33
+w1753380537
+8C:/Users/davip/Desktop/Projeto MIPS - AOC/tb_mips_processor.v
+FC:/Users/davip/Desktop/Projeto MIPS - AOC/tb_mips_processor.v
+!i122 10
+L0 15 22
 R4
 r1
 !s85 0
 31
 R5
-!s107 C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/teste_mips_toplevel.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src|C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/teste_mips_toplevel.v|
+!s107 C:/Users/davip/Desktop/Projeto MIPS - AOC/tb_mips_processor.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/davip/Desktop/Projeto MIPS - AOC|C:/Users/davip/Desktop/Projeto MIPS - AOC/tb_mips_processor.v|
 !i113 1
 R6
 R7
 R8
 vULA
-R13
+R10
 !i10b 1
-!s100 e1oA1Bc@[1MFYg0Ek_L7o2
+!s100 @S238Z1K`_iIG3m[WE3h80
 R2
-I4Ri;R3BMY9Y@fGS<D`OjE0
+I0FG^WnJ0=jf2lNSkREg5U2
 R3
 R0
-w1753249604
-8C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/ULA.v
-FC:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/ULA.v
-!i122 1
-L0 2 33
+R9
+8C:/Users/davip/Desktop/Projeto MIPS - AOC/ULA.v
+FC:/Users/davip/Desktop/Projeto MIPS - AOC/ULA.v
+!i122 0
+L0 14 35
 R4
 r1
 !s85 0
 31
-R12
-!s107 C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/ULA.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src|C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/ULA.v|
+R11
+!s107 C:/Users/davip/Desktop/Projeto MIPS - AOC/ULA.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/davip/Desktop/Projeto MIPS - AOC|C:/Users/davip/Desktop/Projeto MIPS - AOC/ULA.v|
 !i113 1
 R6
 R7
 R8
 n@u@l@a
-vula_ctrl
-R13
+vULA_CTRL
+R1
 !i10b 1
-!s100 D>`VPZO>Y5AllYI026olf0
+!s100 kU^dF95[0G>C>:k0zXClg2
 R2
-INHg97LAn2n9T@]9PGY;ob3
+InkofXM8eKMA:8i0I05I3b1
 R3
 R0
-R9
-8C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/ULA_CTRL.v
-FC:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/ULA_CTRL.v
-!i122 0
-L0 3 41
+w1753383615
+8C:/Users/davip/Desktop/Projeto MIPS - AOC/ULA_CTRL.v
+FC:/Users/davip/Desktop/Projeto MIPS - AOC/ULA_CTRL.v
+!i122 6
+L0 14 51
 R4
 r1
 !s85 0
 31
-R12
-!s107 C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/ULA_CTRL.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src|C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/ULA_CTRL.v|
+R5
+!s107 C:/Users/davip/Desktop/Projeto MIPS - AOC/ULA_CTRL.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/davip/Desktop/Projeto MIPS - AOC|C:/Users/davip/Desktop/Projeto MIPS - AOC/ULA_CTRL.v|
 !i113 1
 R6
 R7
 R8
+n@u@l@a_@c@t@r@l

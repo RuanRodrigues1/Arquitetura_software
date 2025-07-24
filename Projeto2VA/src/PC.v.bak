@@ -1,3 +1,10 @@
+/*
+PROJETO: Processador MIPS, autores: DAVI PIRES, JUAN PABOLLO, VITHOR DE CASTRO, RUAN RODRIGUES
+
+ARQUIVO: PC (Lida com endereco PC (next ou reset))
+
+*/
+
 module PC (clock, next_PC, PC, reset);
 
     input wire clock;

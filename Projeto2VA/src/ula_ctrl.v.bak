@@ -1,11 +1,40 @@
 
-// Descrição do arquivo:  (escrever o nome do módulo)
+module ULA_CTRL(
+    input wire [1:0] ALUOp,
+    input wire [5:0] funct,
+    output reg [3:0] ula_op_out
+);
 
+    // Códigos de operação da ULA
+    localparam OP_AND = 4'b0000;
+    localparam OP_OR  = 4'b0001;
+    localparam OP_ADD = 4'b0010;
+    localparam OP_SUB = 4'b0110;
+    localparam OP_SLT = 4'b0111;
 
-module ula_ctrl(
-	parameter tamanho_instrucao = 32 // largura de bits
-)
-(
-	
+    // Lógica para definir a operação da ULA
+    always @(*) begin
+        // O valor de 'alu_op_in' é definido pela unidade de controle principal
+        if (alu_op_in == 2'b10) begin // Instrução do Tipo-R
+            // Para o Tipo-R, a operação é definida pelo campo 'funct'
+            case(funct_field)
+                6'b100000: ula_op_out = OP_ADD; // add
+                6'b100010: ula_op_out = OP_SUB; // sub
+                6'b100100: ula_op_out = OP_AND; // and
+                6'b100101: ula_op_out = OP_OR;  // or
+                6'b101010: ula_op_out = OP_SLT; // slt
+                default:   ula_op_out = 4'bxxxx; // Operação não definida
+            endcase
+        end
+        else if (alu_op_in == 2'b00) begin // Para lw, sw, addi
+            ula_op_out = OP_ADD; // A ULA deve somar
+        end
+        else if (alu_op_in == 2'b01) begin // Para beq
+            ula_op_out = OP_SUB; // A ULA deve subtrair para comparar
+        end
+        else begin
+            ula_op_out = 4'bxxxx; // Caso indefinido
+        end
+    end
 
-)
+endmodule

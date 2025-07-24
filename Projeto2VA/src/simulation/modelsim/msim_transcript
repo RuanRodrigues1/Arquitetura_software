@@ -1,5 +1,5 @@
 # Reading pref.tcl
-# do teste_mips_toplevel_run_msim_rtl_verilog.do
+# do tentar_run_msim_rtl_verilog.do
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
 # }
@@ -10,154 +10,144 @@
 # Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src {C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/ULA_CTRL.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/davip/Desktop/Projeto\ MIPS\ -\ AOC {C:/Users/davip/Desktop/Projeto MIPS - AOC/ULA.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:56:59 on Jul 23,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src" C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/ULA_CTRL.v 
-# -- Compiling module ula_ctrl
-# 
-# Top level modules:
-# 	ula_ctrl
-# End time: 22:56:59 on Jul 23,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src {C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/ULA.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:56:59 on Jul 23,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src" C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/ULA.v 
+# Start time: 16:00:45 on Jul 24,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/davip/Desktop/Projeto MIPS - AOC" C:/Users/davip/Desktop/Projeto MIPS - AOC/ULA.v 
 # -- Compiling module ULA
 # 
 # Top level modules:
 # 	ULA
-# End time: 22:56:59 on Jul 23,2025, Elapsed time: 0:00:00
+# End time: 16:00:45 on Jul 24,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src {C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/somador_PC_4.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/davip/Desktop/Projeto\ MIPS\ -\ AOC {C:/Users/davip/Desktop/Projeto MIPS - AOC/regfile.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:56:59 on Jul 23,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src" C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/somador_PC_4.v 
-# -- Compiling module somador_PC_4
-# 
-# Top level modules:
-# 	somador_PC_4
-# End time: 22:56:59 on Jul 23,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src {C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/shift_left_2.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:56:59 on Jul 23,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src" C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/shift_left_2.v 
-# -- Compiling module shift_left_2
-# 
-# Top level modules:
-# 	shift_left_2
-# End time: 22:57:00 on Jul 23,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src {C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/regfile.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:57:00 on Jul 23,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src" C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/regfile.v 
+# Start time: 16:00:45 on Jul 24,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/davip/Desktop/Projeto MIPS - AOC" C:/Users/davip/Desktop/Projeto MIPS - AOC/regfile.v 
 # -- Compiling module regfile
 # 
 # Top level modules:
 # 	regfile
-# End time: 22:57:00 on Jul 23,2025, Elapsed time: 0:00:00
+# End time: 16:00:45 on Jul 24,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src {C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/PC.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/davip/Desktop/Projeto\ MIPS\ -\ AOC {C:/Users/davip/Desktop/Projeto MIPS - AOC/PC.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:57:00 on Jul 23,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src" C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/PC.v 
+# Start time: 16:00:45 on Jul 24,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/davip/Desktop/Projeto MIPS - AOC" C:/Users/davip/Desktop/Projeto MIPS - AOC/PC.v 
 # -- Compiling module PC
 # 
 # Top level modules:
 # 	PC
-# End time: 22:57:00 on Jul 23,2025, Elapsed time: 0:00:00
+# End time: 16:00:45 on Jul 24,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src {C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/mux2x1.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/davip/Desktop/Projeto\ MIPS\ -\ AOC {C:/Users/davip/Desktop/Projeto MIPS - AOC/mux2x1.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:57:00 on Jul 23,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src" C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/mux2x1.v 
+# Start time: 16:00:45 on Jul 24,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/davip/Desktop/Projeto MIPS - AOC" C:/Users/davip/Desktop/Projeto MIPS - AOC/mux2x1.v 
 # -- Compiling module mux2x1
 # 
 # Top level modules:
 # 	mux2x1
-# End time: 22:57:00 on Jul 23,2025, Elapsed time: 0:00:00
+# End time: 16:00:45 on Jul 24,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src {C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/MIPS.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/davip/Desktop/Projeto\ MIPS\ -\ AOC {C:/Users/davip/Desktop/Projeto MIPS - AOC/extensor_de_sinal.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:57:00 on Jul 23,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src" C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/MIPS.v 
-# -- Compiling module MIPS
-# 
-# Top level modules:
-# 	MIPS
-# End time: 22:57:00 on Jul 23,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src {C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/extensor_de_sinal.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:57:00 on Jul 23,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src" C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/extensor_de_sinal.v 
+# Start time: 16:00:45 on Jul 24,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/davip/Desktop/Projeto MIPS - AOC" C:/Users/davip/Desktop/Projeto MIPS - AOC/extensor_de_sinal.v 
 # -- Compiling module extensor_de_sinal
 # 
 # Top level modules:
 # 	extensor_de_sinal
-# End time: 22:57:00 on Jul 23,2025, Elapsed time: 0:00:00
+# End time: 16:00:45 on Jul 24,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src {C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/davip/Desktop/Projeto\ MIPS\ -\ AOC {C:/Users/davip/Desktop/Projeto MIPS - AOC/mips_processor.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:57:00 on Jul 23,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src" C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v 
-# -- Compiling module d_mem
+# Start time: 16:00:45 on Jul 24,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/davip/Desktop/Projeto MIPS - AOC" C:/Users/davip/Desktop/Projeto MIPS - AOC/mips_processor.v 
+# -- Compiling module mips_processor
 # 
 # Top level modules:
-# 	d_mem
-# End time: 22:57:00 on Jul 23,2025, Elapsed time: 0:00:00
+# 	mips_processor
+# End time: 16:00:45 on Jul 24,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src {C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/ctrl.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/davip/Desktop/Projeto\ MIPS\ -\ AOC {C:/Users/davip/Desktop/Projeto MIPS - AOC/ULA_CTRL.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:57:00 on Jul 23,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src" C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/ctrl.v 
+# Start time: 16:00:46 on Jul 24,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/davip/Desktop/Projeto MIPS - AOC" C:/Users/davip/Desktop/Projeto MIPS - AOC/ULA_CTRL.v 
+# -- Compiling module ULA_CTRL
+# 
+# Top level modules:
+# 	ULA_CTRL
+# End time: 16:00:46 on Jul 24,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/davip/Desktop/Projeto\ MIPS\ -\ AOC {C:/Users/davip/Desktop/Projeto MIPS - AOC/ctrl.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:00:46 on Jul 24,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/davip/Desktop/Projeto MIPS - AOC" C:/Users/davip/Desktop/Projeto MIPS - AOC/ctrl.v 
 # -- Compiling module ctrl
 # 
 # Top level modules:
 # 	ctrl
-# End time: 22:57:00 on Jul 23,2025, Elapsed time: 0:00:00
+# End time: 16:00:46 on Jul 24,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src {C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/i_mem.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/davip/Desktop/Projeto\ MIPS\ -\ AOC {C:/Users/davip/Desktop/Projeto MIPS - AOC/d_mem.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:57:00 on Jul 23,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src" C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/i_mem.v 
+# Start time: 16:00:46 on Jul 24,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/davip/Desktop/Projeto MIPS - AOC" C:/Users/davip/Desktop/Projeto MIPS - AOC/d_mem.v 
+# -- Compiling module d_mem
+# 
+# Top level modules:
+# 	d_mem
+# End time: 16:00:46 on Jul 24,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/davip/Desktop/Projeto\ MIPS\ -\ AOC {C:/Users/davip/Desktop/Projeto MIPS - AOC/i_mem.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:00:46 on Jul 24,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/davip/Desktop/Projeto MIPS - AOC" C:/Users/davip/Desktop/Projeto MIPS - AOC/i_mem.v 
 # -- Compiling module i_mem
 # 
 # Top level modules:
 # 	i_mem
-# End time: 22:57:00 on Jul 23,2025, Elapsed time: 0:00:00
+# End time: 16:00:46 on Jul 24,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src {C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/teste_mips_toplevel.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/davip/Desktop/Projeto\ MIPS\ -\ AOC {C:/Users/davip/Desktop/Projeto MIPS - AOC/tb_mips_processor.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:57:00 on Jul 23,2025
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src" C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/teste_mips_toplevel.v 
-# -- Compiling module teste_mips_toplevel
+# Start time: 16:00:46 on Jul 24,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/davip/Desktop/Projeto MIPS - AOC" C:/Users/davip/Desktop/Projeto MIPS - AOC/tb_mips_processor.v 
+# -- Compiling module tb_mips_processor
 # 
 # Top level modules:
-# 	teste_mips_toplevel
-# End time: 22:57:00 on Jul 23,2025, Elapsed time: 0:00:00
+# 	tb_mips_processor
+# End time: 16:00:46 on Jul 24,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  teste_mips_toplevel
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" teste_mips_toplevel 
-# Start time: 22:57:00 on Jul 23,2025
-# Loading work.teste_mips_toplevel
-# Loading work.MIPS
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_mips_processor
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_mips_processor 
+# Start time: 16:00:46 on Jul 24,2025
+# Loading work.tb_mips_processor
+# Loading work.mips_processor
 # Loading work.PC
-# Loading work.somador_PC_4
 # Loading work.i_mem
 # Loading work.ctrl
+# Loading work.mux2x1
 # Loading work.regfile
 # Loading work.extensor_de_sinal
-# Loading work.mux2x1
-# Loading work.ula_ctrl
+# Loading work.ULA_CTRL
 # Loading work.ULA
 # Loading work.d_mem
-# Loading work.shift_left_2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'entrada0'. The port definition is at: C:/Users/davip/Desktop/Projeto MIPS - AOC/mux2x1.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_mips_processor/uut/reg_dest_mux File: C:/Users/davip/Desktop/Projeto MIPS - AOC/mips_processor.v Line: 75
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'entrada1'. The port definition is at: C:/Users/davip/Desktop/Projeto MIPS - AOC/mux2x1.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_mips_processor/uut/reg_dest_mux File: C:/Users/davip/Desktop/Projeto MIPS - AOC/mips_processor.v Line: 75
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'saida'. The port definition is at: C:/Users/davip/Desktop/Projeto MIPS - AOC/mux2x1.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_mips_processor/uut/reg_dest_mux File: C:/Users/davip/Desktop/Projeto MIPS - AOC/mips_processor.v Line: 75
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'entrada0'. The port definition is at: C:/Users/davip/Desktop/Projeto MIPS - AOC/mux2x1.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_mips_processor/uut/jal_dest_mux File: C:/Users/davip/Desktop/Projeto MIPS - AOC/mips_processor.v Line: 78
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'entrada1'. The port definition is at: C:/Users/davip/Desktop/Projeto MIPS - AOC/mux2x1.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_mips_processor/uut/jal_dest_mux File: C:/Users/davip/Desktop/Projeto MIPS - AOC/mips_processor.v Line: 78
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'saida'. The port definition is at: C:/Users/davip/Desktop/Projeto MIPS - AOC/mux2x1.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_mips_processor/uut/jal_dest_mux File: C:/Users/davip/Desktop/Projeto MIPS - AOC/mips_processor.v Line: 78
 # 
 # add wave *
 # view structure
@@ -165,10 +155,79 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-# ** Note: $stop    : C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/teste_mips_toplevel.v(33)
-#    Time: 210 ns  Iteration: 0  Instance: /teste_mips_toplevel
-# Break in Module teste_mips_toplevel at C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/teste_mips_toplevel.v line 33
-add wave -position insertpoint  \
-sim:/teste_mips_toplevel/uut/alu_inst/result
-# End time: 22:58:35 on Jul 23,2025, Elapsed time: 0:01:35
-# Errors: 0, Warnings: 0
+# PC:          x | ULA:          x | D_MEM:          x
+# PC:          0 | ULA:          0 | D_MEM:          z
+# PC:          4 | ULA: 4294942720 | D_MEM:          z
+# PC:          8 | ULA: 4294942720 | D_MEM:          z
+# PC:         12 | ULA: 4294942721 | D_MEM:          z
+# PC:         16 | ULA:         20 | D_MEM:          z
+# PC:         20 | ULA:         15 | D_MEM:          z
+# PC:         24 | ULA:         35 | D_MEM:          z
+# PC:         28 | ULA:          5 | D_MEM:          z
+# PC:         32 | ULA:         40 | D_MEM:          z
+# PC:         36 | ULA:          4 | D_MEM:          z
+# PC:         40 | ULA:         31 | D_MEM:          z
+# PC:         44 | ULA:          0 | D_MEM:          z
+# PC:         48 | ULA:          0 | D_MEM:          z
+# PC:         52 | ULA: 4294942722 | D_MEM:          z
+# PC:         56 | ULA:          5 | D_MEM:          z
+# PC:         60 | ULA:         20 | D_MEM:          z
+# PC:         64 | ULA:         20 | D_MEM:          z
+# PC:         68 | ULA:          0 | D_MEM:          z
+# PC:         64 | ULA:         80 | D_MEM:          z
+# PC:         68 | ULA:         60 | D_MEM:          z
+# PC:         72 | ULA: 4294942723 | D_MEM:          z
+# PC:         76 | ULA:          5 | D_MEM:          z
+# PC:         80 | ULA:         80 | D_MEM:          z
+# PC:         84 | ULA:          2 | D_MEM:          z
+# PC:         88 | ULA:         20 | D_MEM:          z
+# PC:         92 | ULA: 4294967236 | D_MEM:          z
+# PC:         88 | ULA:         80 | D_MEM:          z
+# PC:         92 | ULA:          0 | D_MEM:          z
+# PC:         96 | ULA: 4294942724 | D_MEM:          z
+# PC:        100 | ULA: 4294967294 | D_MEM:          z
+# PC:        104 | ULA: 4294967288 | D_MEM:          z
+# PC:        108 | ULA: 4294967292 | D_MEM:          z
+# PC:        112 | ULA:          0 | D_MEM:          z
+# PC:        116 | ULA:          0 | D_MEM:          z
+# PC:        108 | ULA: 4294967294 | D_MEM:          z
+# PC:        112 | ULA:          0 | D_MEM:          z
+# PC:        116 | ULA:          0 | D_MEM:          z
+# PC:        108 | ULA: 4294967295 | D_MEM:          z
+# PC:        112 | ULA:          1 | D_MEM:          z
+# PC:        116 | ULA:          1 | D_MEM:          z
+# PC:        120 | ULA: 4294942725 | D_MEM:          z
+# PC:        124 | ULA:         12 | D_MEM:          z
+# PC:        128 | ULA:         40 | D_MEM:          z
+# PC:        132 | ULA:         10 | D_MEM:          z
+# PC:        136 | ULA:         20 | D_MEM:          z
+# PC:        140 | ULA:         30 | D_MEM:          z
+# PC:        144 | ULA:         40 | D_MEM:          z
+# PC:        148 | ULA:         12 | D_MEM:          z
+# PC:        152 | ULA:         16 | D_MEM:          z
+# PC:        156 | ULA:         48 | D_MEM:          z
+# PC:        160 | ULA:         52 | D_MEM:          z
+# PC:        164 | ULA:         12 | D_MEM:         10
+# PC:        168 | ULA:         16 | D_MEM:         20
+# PC:        172 | ULA:         30 | D_MEM:          z
+# PC:        176 | ULA:         48 | D_MEM:         30
+# PC:        180 | ULA:         52 | D_MEM:         40
+# PC:        184 | ULA:         70 | D_MEM:          z
+# PC:        188 | ULA:        100 | D_MEM:          z
+# PC:        192 | ULA: 4294942726 | D_MEM:          z
+# PC:        196 | ULA:          0 | D_MEM:          z
+# PC:        216 | ULA:          1 | D_MEM:          z
+# PC:        220 | ULA: 4294942727 | D_MEM:          z
+# PC:        224 | ULA:          0 | D_MEM:          z
+# PC:        248 | ULA:        228 | D_MEM:          z
+# PC:        252 | ULA:          0 | D_MEM:          z
+# PC:        228 | ULA: 4294967295 | D_MEM:          z
+# PC:        232 | ULA: 4294967294 | D_MEM:          z
+# PC:        236 | ULA: 4294967293 | D_MEM:          z
+# PC:        240 | ULA: 4294967292 | D_MEM:          z
+# ** Note: $finish    : C:/Users/davip/Desktop/Projeto MIPS - AOC/tb_mips_processor.v(31)
+#    Time: 705 ns  Iteration: 0  Instance: /tb_mips_processor
+# 1
+# Break in Module tb_mips_processor at C:/Users/davip/Desktop/Projeto MIPS - AOC/tb_mips_processor.v line 31
+# End time: 16:57:18 on Jul 24,2025, Elapsed time: 0:56:32
+# Errors: 0, Warnings: 6

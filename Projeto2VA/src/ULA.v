@@ -1,5 +1,11 @@
 /*
-PROJETO: Processador MIPS, autores: DAVI PIRES, JUAN PABOLLO, VITHOR DE CASTRO, RUAN RODRIGUES
+PROJETO: Processador MIPS Monociclo
+
+AUTORES: DAVI PIRES, JUAN PABOLLO, VITHOR DE CASTRO, RUAN RODRIGUES
+
+DISCIPLINA: Arquitetura e Organização de Computadores
+
+SEMESTRE: 2025.1
 
 ARQUIVO: Modulo ULA (Operações aritiméticas / lógicas)
 
