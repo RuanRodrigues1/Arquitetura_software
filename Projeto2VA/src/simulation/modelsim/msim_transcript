@@ -1,0 +1,174 @@
+# Reading pref.tcl
+# do teste_mips_toplevel_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src {C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/ULA_CTRL.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:56:59 on Jul 23,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src" C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/ULA_CTRL.v 
+# -- Compiling module ula_ctrl
+# 
+# Top level modules:
+# 	ula_ctrl
+# End time: 22:56:59 on Jul 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src {C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/ULA.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:56:59 on Jul 23,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src" C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/ULA.v 
+# -- Compiling module ULA
+# 
+# Top level modules:
+# 	ULA
+# End time: 22:56:59 on Jul 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src {C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/somador_PC_4.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:56:59 on Jul 23,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src" C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/somador_PC_4.v 
+# -- Compiling module somador_PC_4
+# 
+# Top level modules:
+# 	somador_PC_4
+# End time: 22:56:59 on Jul 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src {C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/shift_left_2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:56:59 on Jul 23,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src" C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/shift_left_2.v 
+# -- Compiling module shift_left_2
+# 
+# Top level modules:
+# 	shift_left_2
+# End time: 22:57:00 on Jul 23,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src {C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/regfile.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:57:00 on Jul 23,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src" C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/regfile.v 
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# End time: 22:57:00 on Jul 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src {C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/PC.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:57:00 on Jul 23,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src" C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/PC.v 
+# -- Compiling module PC
+# 
+# Top level modules:
+# 	PC
+# End time: 22:57:00 on Jul 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src {C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/mux2x1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:57:00 on Jul 23,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src" C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/mux2x1.v 
+# -- Compiling module mux2x1
+# 
+# Top level modules:
+# 	mux2x1
+# End time: 22:57:00 on Jul 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src {C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/MIPS.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:57:00 on Jul 23,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src" C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/MIPS.v 
+# -- Compiling module MIPS
+# 
+# Top level modules:
+# 	MIPS
+# End time: 22:57:00 on Jul 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src {C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/extensor_de_sinal.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:57:00 on Jul 23,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src" C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/extensor_de_sinal.v 
+# -- Compiling module extensor_de_sinal
+# 
+# Top level modules:
+# 	extensor_de_sinal
+# End time: 22:57:00 on Jul 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src {C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:57:00 on Jul 23,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src" C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v 
+# -- Compiling module d_mem
+# 
+# Top level modules:
+# 	d_mem
+# End time: 22:57:00 on Jul 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src {C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/ctrl.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:57:00 on Jul 23,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src" C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/ctrl.v 
+# -- Compiling module ctrl
+# 
+# Top level modules:
+# 	ctrl
+# End time: 22:57:00 on Jul 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src {C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/i_mem.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:57:00 on Jul 23,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src" C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/i_mem.v 
+# -- Compiling module i_mem
+# 
+# Top level modules:
+# 	i_mem
+# End time: 22:57:00 on Jul 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src {C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/teste_mips_toplevel.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:57:00 on Jul 23,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src" C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/teste_mips_toplevel.v 
+# -- Compiling module teste_mips_toplevel
+# 
+# Top level modules:
+# 	teste_mips_toplevel
+# End time: 22:57:00 on Jul 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  teste_mips_toplevel
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" teste_mips_toplevel 
+# Start time: 22:57:00 on Jul 23,2025
+# Loading work.teste_mips_toplevel
+# Loading work.MIPS
+# Loading work.PC
+# Loading work.somador_PC_4
+# Loading work.i_mem
+# Loading work.ctrl
+# Loading work.regfile
+# Loading work.extensor_de_sinal
+# Loading work.mux2x1
+# Loading work.ula_ctrl
+# Loading work.ULA
+# Loading work.d_mem
+# Loading work.shift_left_2
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $stop    : C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/teste_mips_toplevel.v(33)
+#    Time: 210 ns  Iteration: 0  Instance: /teste_mips_toplevel
+# Break in Module teste_mips_toplevel at C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/teste_mips_toplevel.v line 33
+add wave -position insertpoint  \
+sim:/teste_mips_toplevel/uut/alu_inst/result
+# End time: 22:58:35 on Jul 23,2025, Elapsed time: 0:01:35
+# Errors: 0, Warnings: 0

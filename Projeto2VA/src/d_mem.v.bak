@@ -1,0 +1,32 @@
+
+module d_mem(
+    input wire MemWrite,
+    input wire MemRead,
+    input wire [31:0] Address,
+    input wire [31:0] WriteData,
+    output reg [31:0] ReadData
+);
+
+    parameter MEMORIA_SIZE = 7;
+
+    // Declaração da memória RAM.
+    reg [31:0] ram_memory [0:MEMORIA_SIZE];
+
+    always @(*) begin
+    
+        if (MemWrite) begin
+            ram_memory[Address] = WriteData;
+        end
+
+        // Lógica de leitura assíncrona:
+        // Se MemRead estiver ativo, a saída reflete o conteúdo do endereço.
+        if (MemRead) begin
+            ReadData = ram_memory[Address[ADDR_WIDTH+1:2]];
+        end 
+        else begin
+            // Se não estiver lendo, a saída fica em alta impedância (desconhecida 'x').
+            ReadData = 32'hxxxxxxxx;
+        end
+    end
+
+endmodule

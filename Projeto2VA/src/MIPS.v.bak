@@ -1,0 +1,42 @@
+
+module MIPS(clock, reset, PC_value, ULA_out_value, d_mem_out_value);
+	input wire clock, reset;
+	// NOTA: Corrigi um pequeno erro de digitação no nome da porta de saída abaixo (era 'vallue')
+	output wire [31:0] PC_value, ULA_out_value, d_mem_out_value;
+	
+	// Fios para conectar à ULA
+	wire [31:0] ULA_in1, ULA_in2, ULA_result_internal;
+	wire [3:0]  ULA_OP;
+	wire        ULA_zero_flag;
+	
+	//==============================================================
+	// INÍCIO DO TESTE DA ULA
+	//==============================================================
+
+	// 1. Conectamos valores fixos (constantes) nas entradas da ULA.
+	//    Vamos testar a operação ADD (15 + 7 = 22)
+	
+	assign ULA_in1 = 32'd15;  // Fornece o valor 15 para a primeira entrada
+	assign ULA_in2 = 32'd7;   // Fornece o valor 7 para a segunda entrada
+	assign ULA_OP  = 4'b0010; // Fornece o código da operação ADD, conforme definido na sua ULA
+	
+	// 2. Instanciamos a ULA
+	ULA u_ula_em_teste (
+		.in1(ULA_in1),
+		.in2(ULA_in2),
+		.OP(ULA_OP),
+		.result(ULA_result_internal), // A saída da ULA vai para um fio interno
+		.Zero_flag(ULA_zero_flag)
+	);
+
+	// 3. Conectamos o resultado da ULA a uma porta de saída do MIPS
+	//    Isso nos permite ver o resultado fora do módulo.
+	assign ULA_out_value = ULA_result_internal;
+
+
+	// O resto do processador (PC, memórias, etc.) não está conectado por enquanto.
+	// As outras saídas terão valor indefinido ('X') ou 'Z', o que é normal para este teste.
+	assign PC_value = 32'hxxxxxxxx;
+	assign d_mem_out_value = 32'hxxxxxxxx;
+
+endmodule

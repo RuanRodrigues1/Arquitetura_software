@@ -1,0 +1,70 @@
+|i_mem_test
+
+
+|i_mem_test|i_mem:unit_under_test
+endereco_PC[0] => ~NO_FANOUT~
+endereco_PC[1] => ~NO_FANOUT~
+endereco_PC[2] => memoria_ROM.RADDR
+endereco_PC[3] => memoria_ROM.RADDR1
+endereco_PC[4] => memoria_ROM.RADDR2
+endereco_PC[5] => memoria_ROM.RADDR3
+endereco_PC[6] => memoria_ROM.RADDR4
+endereco_PC[7] => memoria_ROM.RADDR5
+endereco_PC[8] => ~NO_FANOUT~
+endereco_PC[9] => ~NO_FANOUT~
+endereco_PC[10] => ~NO_FANOUT~
+endereco_PC[11] => ~NO_FANOUT~
+endereco_PC[12] => ~NO_FANOUT~
+endereco_PC[13] => ~NO_FANOUT~
+endereco_PC[14] => ~NO_FANOUT~
+endereco_PC[15] => ~NO_FANOUT~
+endereco_PC[16] => ~NO_FANOUT~
+endereco_PC[17] => ~NO_FANOUT~
+endereco_PC[18] => ~NO_FANOUT~
+endereco_PC[19] => ~NO_FANOUT~
+endereco_PC[20] => ~NO_FANOUT~
+endereco_PC[21] => ~NO_FANOUT~
+endereco_PC[22] => ~NO_FANOUT~
+endereco_PC[23] => ~NO_FANOUT~
+endereco_PC[24] => ~NO_FANOUT~
+endereco_PC[25] => ~NO_FANOUT~
+endereco_PC[26] => ~NO_FANOUT~
+endereco_PC[27] => ~NO_FANOUT~
+endereco_PC[28] => ~NO_FANOUT~
+endereco_PC[29] => ~NO_FANOUT~
+endereco_PC[30] => ~NO_FANOUT~
+endereco_PC[31] => ~NO_FANOUT~
+instrucao_out[0] <= memoria_ROM.DATAOUT
+instrucao_out[1] <= memoria_ROM.DATAOUT1
+instrucao_out[2] <= memoria_ROM.DATAOUT2
+instrucao_out[3] <= memoria_ROM.DATAOUT3
+instrucao_out[4] <= memoria_ROM.DATAOUT4
+instrucao_out[5] <= memoria_ROM.DATAOUT5
+instrucao_out[6] <= memoria_ROM.DATAOUT6
+instrucao_out[7] <= memoria_ROM.DATAOUT7
+instrucao_out[8] <= memoria_ROM.DATAOUT8
+instrucao_out[9] <= memoria_ROM.DATAOUT9
+instrucao_out[10] <= memoria_ROM.DATAOUT10
+instrucao_out[11] <= memoria_ROM.DATAOUT11
+instrucao_out[12] <= memoria_ROM.DATAOUT12
+instrucao_out[13] <= memoria_ROM.DATAOUT13
+instrucao_out[14] <= memoria_ROM.DATAOUT14
+instrucao_out[15] <= memoria_ROM.DATAOUT15
+instrucao_out[16] <= memoria_ROM.DATAOUT16
+instrucao_out[17] <= memoria_ROM.DATAOUT17
+instrucao_out[18] <= memoria_ROM.DATAOUT18
+instrucao_out[19] <= memoria_ROM.DATAOUT19
+instrucao_out[20] <= memoria_ROM.DATAOUT20
+instrucao_out[21] <= memoria_ROM.DATAOUT21
+instrucao_out[22] <= memoria_ROM.DATAOUT22
+instrucao_out[23] <= memoria_ROM.DATAOUT23
+instrucao_out[24] <= memoria_ROM.DATAOUT24
+instrucao_out[25] <= memoria_ROM.DATAOUT25
+instrucao_out[26] <= memoria_ROM.DATAOUT26
+instrucao_out[27] <= memoria_ROM.DATAOUT27
+instrucao_out[28] <= memoria_ROM.DATAOUT28
+instrucao_out[29] <= memoria_ROM.DATAOUT29
+instrucao_out[30] <= memoria_ROM.DATAOUT30
+instrucao_out[31] <= memoria_ROM.DATAOUT31
+
+

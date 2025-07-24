@@ -12,7 +12,7 @@ module ctrl(
 	output reg ALUSrc,
 	output reg RegWrite,
 	output reg Jump,	//sinal para tipo j
-   	output reg Jal_Dest //sinal para tipo j
+   output reg Jal_Dest //sinal para tipo j
 
 
 );

@@ -1,0 +1,23 @@
+/*
+PROJETO: Processador MIPS, autores: DAVI PIRES, JUAN PABOLLO, VITHOR DE CASTRO, RUAN RODRIGUES
+
+ARQUIVO: PC (Lida com endereco PC (next ou reset))
+
+*/
+
+module PC (clock, next_PC, PC, reset);
+
+    input wire clock;
+    input wire [31:0] next_PC;
+    input wire reset;
+    output reg [31:0] PC;
+
+    // A cada ciclo de clock (subida):
+    always @(posedge clock) begin
+        if (reset)
+            PC <= 32'b0;            // Se reset, reseta
+        else
+            PC <= next_PC;          // Se nao, vai para o proximo PC
+    end
+
+endmodule
