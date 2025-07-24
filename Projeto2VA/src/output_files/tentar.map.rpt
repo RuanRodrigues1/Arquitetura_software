@@ -1,5 +1,5 @@
 Analysis & Synthesis report for tentar
-Thu Jul 24 16:00:35 2025
+Thu Jul 24 18:29:03 2025
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -50,7 +50,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Thu Jul 24 16:00:35 2025       ;
+; Analysis & Synthesis Status     ; Successful - Thu Jul 24 18:29:03 2025       ;
 ; Quartus Prime Version           ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                   ; tentar                                      ;
 ; Top-level Entity Name           ; mips_processor                              ;
@@ -171,33 +171,32 @@ https://fpgasoftware.intel.com/eula.
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
 ;     Processor 2            ;   0.1%      ;
-;     Processor 3            ;   0.0%      ;
+;     Processor 3            ;   0.1%      ;
 ;     Processor 4            ;   0.0%      ;
 ;     Processor 5            ;   0.0%      ;
 ;     Processor 6            ;   0.0%      ;
 ;     Processor 7            ;   0.0%      ;
-;     Processor 8            ;   0.0%      ;
-;     Processors 9-10        ;   0.0%      ;
+;     Processors 8-10        ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                      ;
-+----------------------------------+-----------------+------------------------------+---------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                  ; Library ;
-+----------------------------------+-----------------+------------------------------+---------------------------------------------------------------+---------+
-; ULA.v                            ; yes             ; User Verilog HDL File        ; C:/Users/davip/Desktop/Projeto MIPS - AOC/ULA.v               ;         ;
-; regfile.v                        ; yes             ; User Verilog HDL File        ; C:/Users/davip/Desktop/Projeto MIPS - AOC/regfile.v           ;         ;
-; PC.v                             ; yes             ; User Verilog HDL File        ; C:/Users/davip/Desktop/Projeto MIPS - AOC/PC.v                ;         ;
-; mux2x1.v                         ; yes             ; User Verilog HDL File        ; C:/Users/davip/Desktop/Projeto MIPS - AOC/mux2x1.v            ;         ;
-; i_mem.v                          ; yes             ; User Verilog HDL File        ; C:/Users/davip/Desktop/Projeto MIPS - AOC/i_mem.v             ;         ;
-; extensor_de_sinal.v              ; yes             ; User Verilog HDL File        ; C:/Users/davip/Desktop/Projeto MIPS - AOC/extensor_de_sinal.v ;         ;
-; mips_processor.v                 ; yes             ; User Verilog HDL File        ; C:/Users/davip/Desktop/Projeto MIPS - AOC/mips_processor.v    ;         ;
-; ULA_CTRL.v                       ; yes             ; User Verilog HDL File        ; C:/Users/davip/Desktop/Projeto MIPS - AOC/ULA_CTRL.v          ;         ;
-; instructions.list                ; yes             ; Auto-Found Unspecified File  ; C:/Users/davip/Desktop/Projeto MIPS - AOC/instructions.list   ;         ;
-; ctrl.v                           ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/davip/Desktop/Projeto MIPS - AOC/ctrl.v              ;         ;
-; d_mem.v                          ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/davip/Desktop/Projeto MIPS - AOC/d_mem.v             ;         ;
-+----------------------------------+-----------------+------------------------------+---------------------------------------------------------------+---------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                       ;
++----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                                   ; Library ;
++----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------------------------+---------+
+; ULA.v                            ; yes             ; User Verilog HDL File        ; C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/ULA.v               ;         ;
+; regfile.v                        ; yes             ; User Verilog HDL File        ; C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/regfile.v           ;         ;
+; PC.v                             ; yes             ; User Verilog HDL File        ; C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/PC.v                ;         ;
+; mux2x1.v                         ; yes             ; User Verilog HDL File        ; C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/mux2x1.v            ;         ;
+; i_mem.v                          ; yes             ; User Verilog HDL File        ; C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/i_mem.v             ;         ;
+; extensor_de_sinal.v              ; yes             ; User Verilog HDL File        ; C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/extensor_de_sinal.v ;         ;
+; mips_processor.v                 ; yes             ; User Verilog HDL File        ; C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/mips_processor.v    ;         ;
+; ULA_CTRL.v                       ; yes             ; User Verilog HDL File        ; C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/ULA_CTRL.v          ;         ;
+; instructions.list                ; yes             ; Auto-Found Unspecified File  ; C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/instructions.list   ;         ;
+; ctrl.v                           ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/ctrl.v              ;         ;
+; d_mem.v                          ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v             ;         ;
++----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------------------------+---------+
 
 
 +-----------------------------------------------------------+
@@ -205,14 +204,14 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+-------------+
 ; Resource                                    ; Usage       ;
 +---------------------------------------------+-------------+
-; Estimate of Logic utilization (ALMs needed) ; 2539        ;
+; Estimate of Logic utilization (ALMs needed) ; 2581        ;
 ;                                             ;             ;
-; Combinational ALUT usage for logic          ; 2312        ;
-;     -- 7 input functions                    ; 12          ;
-;     -- 6 input functions                    ; 1603        ;
-;     -- 5 input functions                    ; 357         ;
-;     -- 4 input functions                    ; 99          ;
-;     -- <=3 input functions                  ; 241         ;
+; Combinational ALUT usage for logic          ; 2383        ;
+;     -- 7 input functions                    ; 31          ;
+;     -- 6 input functions                    ; 1668        ;
+;     -- 5 input functions                    ; 341         ;
+;     -- 4 input functions                    ; 122         ;
+;     -- <=3 input functions                  ; 221         ;
 ;                                             ;             ;
 ; Dedicated logic registers                   ; 3072        ;
 ;                                             ;             ;
@@ -222,8 +221,8 @@ https://fpgasoftware.intel.com/eula.
 ;                                             ;             ;
 ; Maximum fan-out node                        ; clock~input ;
 ; Maximum fan-out                             ; 3072        ;
-; Total fan-out                               ; 22948       ;
-; Average fan-out                             ; 4.11        ;
+; Total fan-out                               ; 23439       ;
+; Average fan-out                             ; 4.15        ;
 +---------------------------------------------+-------------+
 
 
@@ -232,15 +231,15 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------+----------------+--------------+
 ; Compilation Hierarchy Node    ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                      ; Entity Name    ; Library Name ;
 +-------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------+----------------+--------------+
-; |mips_processor               ; 2312 (165)          ; 3072 (0)                  ; 0                 ; 0          ; 98   ; 0            ; |mips_processor                          ; mips_processor ; work         ;
-;    |PC:pc_unit|               ; 35 (35)             ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |mips_processor|PC:pc_unit               ; PC             ; work         ;
-;    |ULA:alu|                  ; 479 (479)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips_processor|ULA:alu                  ; ULA            ; work         ;
-;    |ULA_CTRL:ula_control|     ; 10 (10)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips_processor|ULA_CTRL:ula_control     ; ULA_CTRL       ; work         ;
-;    |ctrl:control_unit|        ; 15 (15)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips_processor|ctrl:control_unit        ; ctrl           ; work         ;
+; |mips_processor               ; 2383 (173)          ; 3072 (0)                  ; 0                 ; 0          ; 98   ; 0            ; |mips_processor                          ; mips_processor ; work         ;
+;    |PC:pc_unit|               ; 36 (36)             ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |mips_processor|PC:pc_unit               ; PC             ; work         ;
+;    |ULA:alu|                  ; 509 (509)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips_processor|ULA:alu                  ; ULA            ; work         ;
+;    |ULA_CTRL:ula_control|     ; 23 (23)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips_processor|ULA_CTRL:ula_control     ; ULA_CTRL       ; work         ;
+;    |ctrl:control_unit|        ; 17 (17)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips_processor|ctrl:control_unit        ; ctrl           ; work         ;
 ;    |d_mem:data_memory|        ; 800 (800)           ; 2048 (2048)               ; 0                 ; 0          ; 0    ; 0            ; |mips_processor|d_mem:data_memory        ; d_mem          ; work         ;
 ;    |i_mem:instruction_memory| ; 32 (32)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips_processor|i_mem:instruction_memory ; i_mem          ; work         ;
 ;    |mux2x1:jal_dest_mux|      ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |mips_processor|mux2x1:jal_dest_mux      ; mux2x1         ; work         ;
-;    |regfile:register_file|    ; 772 (772)           ; 992 (992)                 ; 0                 ; 0          ; 0    ; 0            ; |mips_processor|regfile:register_file    ; regfile        ; work         ;
+;    |regfile:register_file|    ; 789 (789)           ; 992 (992)                 ; 0                 ; 0          ; 0    ; 0            ; |mips_processor|regfile:register_file    ; regfile        ; work         ;
 +-------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------+----------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -291,13 +290,16 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------+--------------------------------+-----------------------------------------------------------------------+
 ; Register name                    ; Reason for Removal             ; Registers Removed due to This Register                                ;
 +----------------------------------+--------------------------------+-----------------------------------------------------------------------+
-; regfile:register_file|regs[0][0] ; Stuck at GND                   ; regfile:register_file|regs[0][2], regfile:register_file|regs[0][3],   ;
-;                                  ; due to stuck port clock_enable ; regfile:register_file|regs[0][8], regfile:register_file|regs[0][11],  ;
-;                                  ;                                ; regfile:register_file|regs[0][12], regfile:register_file|regs[0][13], ;
+; regfile:register_file|regs[0][2] ; Stuck at GND                   ; regfile:register_file|regs[0][3], regfile:register_file|regs[0][8],   ;
+;                                  ; due to stuck port clock_enable ; regfile:register_file|regs[0][9], regfile:register_file|regs[0][10],  ;
+;                                  ;                                ; regfile:register_file|regs[0][11], regfile:register_file|regs[0][12], ;
 ;                                  ;                                ; regfile:register_file|regs[0][14], regfile:register_file|regs[0][15], ;
-;                                  ;                                ; regfile:register_file|regs[0][16], regfile:register_file|regs[0][27]  ;
-; regfile:register_file|regs[0][1] ; Stuck at GND                   ; regfile:register_file|regs[0][20], regfile:register_file|regs[0][21], ;
-;                                  ; due to stuck port clock_enable ; regfile:register_file|regs[0][23], regfile:register_file|regs[0][25], ;
+;                                  ;                                ; regfile:register_file|regs[0][16], regfile:register_file|regs[0][22], ;
+;                                  ;                                ; regfile:register_file|regs[0][24], regfile:register_file|regs[0][27], ;
+;                                  ;                                ; regfile:register_file|regs[0][28], regfile:register_file|regs[0][30]  ;
+; regfile:register_file|regs[0][0] ; Stuck at GND                   ; regfile:register_file|regs[0][5], regfile:register_file|regs[0][13],  ;
+;                                  ; due to stuck port clock_enable ; regfile:register_file|regs[0][20], regfile:register_file|regs[0][21], ;
+;                                  ;                                ; regfile:register_file|regs[0][23], regfile:register_file|regs[0][25], ;
 ;                                  ;                                ; regfile:register_file|regs[0][29]                                     ;
 +----------------------------------+--------------------------------+-----------------------------------------------------------------------+
 
@@ -322,32 +324,33 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                          ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------+
-; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; Yes        ; |mips_processor|PC:pc_unit|PC[0]                    ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |mips_processor|PC:pc_unit|PC[28]                   ;
-; 5:1                ; 26 bits   ; 78 LEs        ; 52 LEs               ; 26 LEs                 ; Yes        ; |mips_processor|PC:pc_unit|PC[8]                    ;
-; 3:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |mips_processor|ULA_CTRL:ula_control|ula_op_out[2]  ;
-; 3:1                ; 20 bits   ; 40 LEs        ; 40 LEs               ; 0 LEs                  ; No         ; |mips_processor|alu_in_2[31]                        ;
-; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |mips_processor|ULA:alu|ShiftRight0                 ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; Yes        ; |mips_processor|PC:pc_unit|PC[1]                    ;
+; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |mips_processor|PC:pc_unit|PC[29]                   ;
+; 5:1                ; 26 bits   ; 78 LEs        ; 52 LEs               ; 26 LEs                 ; Yes        ; |mips_processor|PC:pc_unit|PC[9]                    ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |mips_processor|ULA_CTRL:ula_control|ula_op_out[2]  ;
+; 3:1                ; 19 bits   ; 38 LEs        ; 38 LEs               ; 0 LEs                  ; No         ; |mips_processor|alu_in_2[26]                        ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |mips_processor|ULA:alu|ShiftLeft0                  ;
 ; 4:1                ; 49 bits   ; 98 LEs        ; 98 LEs               ; 0 LEs                  ; No         ; |mips_processor|ULA:alu|ShiftRight1                 ;
 ; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |mips_processor|ULA:alu|ShiftRight0                 ;
 ; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |mips_processor|ULA:alu|ShiftRight1                 ;
 ; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |mips_processor|ULA:alu|ShiftLeft0                  ;
 ; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |mips_processor|ULA:alu|ShiftLeft0                  ;
 ; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |mips_processor|ULA:alu|ShiftLeft0                  ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; No         ; |mips_processor|write_back_data[4]                  ;
 ; 3:1                ; 5 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; No         ; |mips_processor|mux2x1:jal_dest_mux|saida[1]        ;
-; 4:1                ; 7 bits    ; 14 LEs        ; 14 LEs               ; 0 LEs                  ; No         ; |mips_processor|alu_in_2[13]                        ;
-; 4:1                ; 5 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; No         ; |mips_processor|alu_in_2[3]                         ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |mips_processor|alu_in_2[14]                        ;
+; 4:1                ; 5 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; No         ; |mips_processor|alu_in_2[4]                         ;
+; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |mips_processor|write_back_data[11]                 ;
+; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |mips_processor|write_back_data[26]                 ;
 ; 32:1               ; 2 bits    ; 42 LEs        ; 18 LEs               ; 24 LEs                 ; No         ; |mips_processor|ctrl:control_unit|Selector4         ;
 ; 33:1               ; 32 bits   ; 704 LEs       ; 704 LEs              ; 0 LEs                  ; No         ; |mips_processor|regfile:register_file|ReadData1[14] ;
 ; 33:1               ; 32 bits   ; 704 LEs       ; 704 LEs              ; 0 LEs                  ; No         ; |mips_processor|regfile:register_file|ReadData2[8]  ;
-; 19:1               ; 8 bits    ; 96 LEs        ; 88 LEs               ; 8 LEs                  ; No         ; |mips_processor|ULA:alu|Mux11                       ;
-; 18:1               ; 5 bits    ; 60 LEs        ; 50 LEs               ; 10 LEs                 ; No         ; |mips_processor|ULA:alu|Mux26                       ;
-; 18:1               ; 3 bits    ; 36 LEs        ; 30 LEs               ; 6 LEs                  ; No         ; |mips_processor|ULA:alu|Mux17                       ;
+; 19:1               ; 8 bits    ; 96 LEs        ; 88 LEs               ; 8 LEs                  ; No         ; |mips_processor|ULA:alu|Mux10                       ;
+; 18:1               ; 5 bits    ; 60 LEs        ; 50 LEs               ; 10 LEs                 ; No         ; |mips_processor|ULA:alu|Mux24                       ;
+; 18:1               ; 3 bits    ; 36 LEs        ; 30 LEs               ; 6 LEs                  ; No         ; |mips_processor|ULA:alu|Mux19                       ;
 ; 20:1               ; 2 bits    ; 26 LEs        ; 22 LEs               ; 4 LEs                  ; No         ; |mips_processor|ULA:alu|Mux22                       ;
 ; 22:1               ; 3 bits    ; 42 LEs        ; 39 LEs               ; 3 LEs                  ; No         ; |mips_processor|ULA:alu|Mux1                        ;
-; 21:1               ; 2 bits    ; 28 LEs        ; 24 LEs               ; 4 LEs                  ; No         ; |mips_processor|ULA:alu|Mux5                        ;
-; 21:1               ; 3 bits    ; 42 LEs        ; 36 LEs               ; 6 LEs                  ; No         ; |mips_processor|ULA:alu|Mux29                       ;
+; 21:1               ; 2 bits    ; 28 LEs        ; 24 LEs               ; 4 LEs                  ; No         ; |mips_processor|ULA:alu|Mux6                        ;
+; 21:1               ; 3 bits    ; 42 LEs        ; 36 LEs               ; 6 LEs                  ; No         ; |mips_processor|ULA:alu|Mux30                       ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------+
 
 
@@ -395,25 +398,25 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     SCLR              ; 26                          ;
 ;     plain             ; 4                           ;
 ; arriav_io_obuf        ; 32                          ;
-; arriav_lcell_comb     ; 2312                        ;
+; arriav_lcell_comb     ; 2383                        ;
 ;     arith             ; 93                          ;
 ;         1 data inputs ; 30                          ;
-;         2 data inputs ; 26                          ;
-;         3 data inputs ; 4                           ;
+;         2 data inputs ; 12                          ;
+;         3 data inputs ; 18                          ;
 ;         4 data inputs ; 2                           ;
 ;         5 data inputs ; 31                          ;
-;     extend            ; 12                          ;
-;         7 data inputs ; 12                          ;
-;     normal            ; 2207                        ;
-;         2 data inputs ; 92                          ;
-;         3 data inputs ; 89                          ;
-;         4 data inputs ; 97                          ;
-;         5 data inputs ; 326                         ;
-;         6 data inputs ; 1603                        ;
+;     extend            ; 31                          ;
+;         7 data inputs ; 31                          ;
+;     normal            ; 2259                        ;
+;         2 data inputs ; 90                          ;
+;         3 data inputs ; 71                          ;
+;         4 data inputs ; 120                         ;
+;         5 data inputs ; 310                         ;
+;         6 data inputs ; 1668                        ;
 ; boundary_port         ; 98                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 14.10                       ;
-; Average LUT depth     ; 9.35                        ;
+; Average LUT depth     ; 9.39                        ;
 +-----------------------+-----------------------------+
 
 
@@ -422,7 +425,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:10     ;
+; Top            ; 00:00:51     ;
 +----------------+--------------+
 
 
@@ -432,107 +435,107 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Thu Jul 24 16:00:18 2025
+    Info: Processing started: Thu Jul 24 18:27:57 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off tentar -c tentar
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 10 of the 10 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file ula.v
-    Info (12023): Found entity 1: ULA File: C:/Users/davip/Desktop/Projeto MIPS - AOC/ULA.v Line: 14
+    Info (12023): Found entity 1: ULA File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/ULA.v Line: 14
 Info (12021): Found 1 design units, including 1 entities, in source file tb_mips_processor.v
-    Info (12023): Found entity 1: tb_mips_processor File: C:/Users/davip/Desktop/Projeto MIPS - AOC/tb_mips_processor.v Line: 15
+    Info (12023): Found entity 1: tb_mips_processor File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/tb_mips_processor.v Line: 15
 Info (12021): Found 1 design units, including 1 entities, in source file somador_pc_4.v
-    Info (12023): Found entity 1: somador_PC_4 File: C:/Users/davip/Desktop/Projeto MIPS - AOC/somador_PC_4.v Line: 14
+    Info (12023): Found entity 1: somador_PC_4 File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/somador_PC_4.v Line: 14
 Info (12021): Found 1 design units, including 1 entities, in source file shift_left_2.v
-    Info (12023): Found entity 1: shift_left_2 File: C:/Users/davip/Desktop/Projeto MIPS - AOC/shift_left_2.v Line: 15
+    Info (12023): Found entity 1: shift_left_2 File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/shift_left_2.v Line: 15
 Info (12021): Found 1 design units, including 1 entities, in source file regfile.v
-    Info (12023): Found entity 1: regfile File: C:/Users/davip/Desktop/Projeto MIPS - AOC/regfile.v Line: 14
+    Info (12023): Found entity 1: regfile File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/regfile.v Line: 14
 Info (12021): Found 1 design units, including 1 entities, in source file pc.v
-    Info (12023): Found entity 1: PC File: C:/Users/davip/Desktop/Projeto MIPS - AOC/PC.v Line: 14
+    Info (12023): Found entity 1: PC File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/PC.v Line: 14
 Info (12021): Found 1 design units, including 1 entities, in source file mux2x1.v
-    Info (12023): Found entity 1: mux2x1 File: C:/Users/davip/Desktop/Projeto MIPS - AOC/mux2x1.v Line: 14
+    Info (12023): Found entity 1: mux2x1 File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/mux2x1.v Line: 14
 Info (12021): Found 1 design units, including 1 entities, in source file i_mem.v
-    Info (12023): Found entity 1: i_mem File: C:/Users/davip/Desktop/Projeto MIPS - AOC/i_mem.v Line: 14
+    Info (12023): Found entity 1: i_mem File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/i_mem.v Line: 14
 Info (12021): Found 1 design units, including 1 entities, in source file extensor_de_sinal.v
-    Info (12023): Found entity 1: extensor_de_sinal File: C:/Users/davip/Desktop/Projeto MIPS - AOC/extensor_de_sinal.v Line: 14
+    Info (12023): Found entity 1: extensor_de_sinal File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/extensor_de_sinal.v Line: 14
 Warning (12019): Can't analyze file -- file d_mem_corrigida.v is missing
 Warning (12019): Can't analyze file -- file ctrl_corrigido.v is missing
 Info (12021): Found 1 design units, including 1 entities, in source file mips_processor.v
-    Info (12023): Found entity 1: mips_processor File: C:/Users/davip/Desktop/Projeto MIPS - AOC/mips_processor.v Line: 13
+    Info (12023): Found entity 1: mips_processor File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/mips_processor.v Line: 13
 Info (12021): Found 1 design units, including 1 entities, in source file ula_ctrl.v
-    Info (12023): Found entity 1: ULA_CTRL File: C:/Users/davip/Desktop/Projeto MIPS - AOC/ULA_CTRL.v Line: 14
+    Info (12023): Found entity 1: ULA_CTRL File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/ULA_CTRL.v Line: 14
 Info (12127): Elaborating entity "mips_processor" for the top level hierarchy
-Info (12128): Elaborating entity "PC" for hierarchy "PC:pc_unit" File: C:/Users/davip/Desktop/Projeto MIPS - AOC/mips_processor.v Line: 56
-Info (12128): Elaborating entity "i_mem" for hierarchy "i_mem:instruction_memory" File: C:/Users/davip/Desktop/Projeto MIPS - AOC/mips_processor.v Line: 64
-Warning (10030): Net "memoria_ROM.data_a" at i_mem.v(22) has no driver or initial value, using a default initial value '0' File: C:/Users/davip/Desktop/Projeto MIPS - AOC/i_mem.v Line: 22
-Warning (10030): Net "memoria_ROM.waddr_a" at i_mem.v(22) has no driver or initial value, using a default initial value '0' File: C:/Users/davip/Desktop/Projeto MIPS - AOC/i_mem.v Line: 22
-Warning (10030): Net "memoria_ROM.we_a" at i_mem.v(22) has no driver or initial value, using a default initial value '0' File: C:/Users/davip/Desktop/Projeto MIPS - AOC/i_mem.v Line: 22
+Info (12128): Elaborating entity "PC" for hierarchy "PC:pc_unit" File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/mips_processor.v Line: 56
+Info (12128): Elaborating entity "i_mem" for hierarchy "i_mem:instruction_memory" File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/mips_processor.v Line: 64
+Warning (10030): Net "memoria_ROM.data_a" at i_mem.v(22) has no driver or initial value, using a default initial value '0' File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/i_mem.v Line: 22
+Warning (10030): Net "memoria_ROM.waddr_a" at i_mem.v(22) has no driver or initial value, using a default initial value '0' File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/i_mem.v Line: 22
+Warning (10030): Net "memoria_ROM.we_a" at i_mem.v(22) has no driver or initial value, using a default initial value '0' File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/i_mem.v Line: 22
 Warning (12125): Using design file ctrl.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: ctrl File: C:/Users/davip/Desktop/Projeto MIPS - AOC/ctrl.v Line: 14
-Info (12128): Elaborating entity "ctrl" for hierarchy "ctrl:control_unit" File: C:/Users/davip/Desktop/Projeto MIPS - AOC/mips_processor.v Line: 72
-Warning (10270): Verilog HDL Case Statement warning at ctrl.v(28): incomplete case statement has no default case item File: C:/Users/davip/Desktop/Projeto MIPS - AOC/ctrl.v Line: 28
-Info (12128): Elaborating entity "mux2x1" for hierarchy "mux2x1:reg_dest_mux" File: C:/Users/davip/Desktop/Projeto MIPS - AOC/mips_processor.v Line: 75
-Info (12128): Elaborating entity "regfile" for hierarchy "regfile:register_file" File: C:/Users/davip/Desktop/Projeto MIPS - AOC/mips_processor.v Line: 85
-Info (12128): Elaborating entity "extensor_de_sinal" for hierarchy "extensor_de_sinal:sign_extender" File: C:/Users/davip/Desktop/Projeto MIPS - AOC/mips_processor.v Line: 88
-Info (12128): Elaborating entity "ULA_CTRL" for hierarchy "ULA_CTRL:ula_control" File: C:/Users/davip/Desktop/Projeto MIPS - AOC/mips_processor.v Line: 92
-Info (12128): Elaborating entity "ULA" for hierarchy "ULA:alu" File: C:/Users/davip/Desktop/Projeto MIPS - AOC/mips_processor.v Line: 108
+    Info (12023): Found entity 1: ctrl File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/ctrl.v Line: 14
+Info (12128): Elaborating entity "ctrl" for hierarchy "ctrl:control_unit" File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/mips_processor.v Line: 72
+Warning (10270): Verilog HDL Case Statement warning at ctrl.v(28): incomplete case statement has no default case item File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/ctrl.v Line: 28
+Info (12128): Elaborating entity "mux2x1" for hierarchy "mux2x1:reg_dest_mux" File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/mips_processor.v Line: 75
+Info (12128): Elaborating entity "regfile" for hierarchy "regfile:register_file" File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/mips_processor.v Line: 85
+Info (12128): Elaborating entity "extensor_de_sinal" for hierarchy "extensor_de_sinal:sign_extender" File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/mips_processor.v Line: 88
+Info (12128): Elaborating entity "ULA_CTRL" for hierarchy "ULA_CTRL:ula_control" File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/mips_processor.v Line: 96
+Info (12128): Elaborating entity "ULA" for hierarchy "ULA:alu" File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/mips_processor.v Line: 112
 Warning (12125): Using design file d_mem.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: d_mem File: C:/Users/davip/Desktop/Projeto MIPS - AOC/d_mem.v Line: 13
-Info (12128): Elaborating entity "d_mem" for hierarchy "d_mem:data_memory" File: C:/Users/davip/Desktop/Projeto MIPS - AOC/mips_processor.v Line: 120
+    Info (12023): Found entity 1: d_mem File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v Line: 13
+Info (12128): Elaborating entity "d_mem" for hierarchy "d_mem:data_memory" File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/mips_processor.v Line: 124
 Info (276014): Found 2 instances of uninferred RAM logic
-    Info (276007): RAM logic "d_mem:data_memory|ram_memory" is uninferred due to asynchronous read logic File: C:/Users/davip/Desktop/Projeto MIPS - AOC/d_mem.v Line: 17
-    Info (276004): RAM logic "i_mem:instruction_memory|memoria_ROM" is uninferred due to inappropriate RAM size File: C:/Users/davip/Desktop/Projeto MIPS - AOC/i_mem.v Line: 22
+    Info (276007): RAM logic "d_mem:data_memory|ram_memory" is uninferred due to asynchronous read logic File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v Line: 17
+    Info (276004): RAM logic "i_mem:instruction_memory|memoria_ROM" is uninferred due to inappropriate RAM size File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/i_mem.v Line: 22
 Warning (12241): 2 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Warning (13046): Tri-state node(s) do not directly drive top-level pin(s)
-    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[0]" to the node "write_back_data[0]" into an OR gate File: C:/Users/davip/Desktop/Projeto MIPS - AOC/d_mem.v Line: 16
-    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[1]" to the node "write_back_data[1]" into an OR gate File: C:/Users/davip/Desktop/Projeto MIPS - AOC/d_mem.v Line: 16
-    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[2]" to the node "write_back_data[2]" into an OR gate File: C:/Users/davip/Desktop/Projeto MIPS - AOC/d_mem.v Line: 16
-    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[3]" to the node "write_back_data[3]" into an OR gate File: C:/Users/davip/Desktop/Projeto MIPS - AOC/d_mem.v Line: 16
-    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[4]" to the node "write_back_data[4]" into an OR gate File: C:/Users/davip/Desktop/Projeto MIPS - AOC/d_mem.v Line: 16
-    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[5]" to the node "write_back_data[5]" into an OR gate File: C:/Users/davip/Desktop/Projeto MIPS - AOC/d_mem.v Line: 16
-    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[6]" to the node "write_back_data[6]" into an OR gate File: C:/Users/davip/Desktop/Projeto MIPS - AOC/d_mem.v Line: 16
-    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[7]" to the node "write_back_data[7]" into an OR gate File: C:/Users/davip/Desktop/Projeto MIPS - AOC/d_mem.v Line: 16
-    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[8]" to the node "write_back_data[8]" into an OR gate File: C:/Users/davip/Desktop/Projeto MIPS - AOC/d_mem.v Line: 16
-    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[9]" to the node "write_back_data[9]" into an OR gate File: C:/Users/davip/Desktop/Projeto MIPS - AOC/d_mem.v Line: 16
-    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[10]" to the node "write_back_data[10]" into an OR gate File: C:/Users/davip/Desktop/Projeto MIPS - AOC/d_mem.v Line: 16
-    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[11]" to the node "write_back_data[11]" into an OR gate File: C:/Users/davip/Desktop/Projeto MIPS - AOC/d_mem.v Line: 16
-    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[12]" to the node "write_back_data[12]" into an OR gate File: C:/Users/davip/Desktop/Projeto MIPS - AOC/d_mem.v Line: 16
-    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[13]" to the node "write_back_data[13]" into an OR gate File: C:/Users/davip/Desktop/Projeto MIPS - AOC/d_mem.v Line: 16
-    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[14]" to the node "write_back_data[14]" into an OR gate File: C:/Users/davip/Desktop/Projeto MIPS - AOC/d_mem.v Line: 16
-    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[15]" to the node "write_back_data[15]" into an OR gate File: C:/Users/davip/Desktop/Projeto MIPS - AOC/d_mem.v Line: 16
-    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[16]" to the node "write_back_data[16]" into an OR gate File: C:/Users/davip/Desktop/Projeto MIPS - AOC/d_mem.v Line: 16
-    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[17]" to the node "write_back_data[17]" into an OR gate File: C:/Users/davip/Desktop/Projeto MIPS - AOC/d_mem.v Line: 16
-    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[18]" to the node "write_back_data[18]" into an OR gate File: C:/Users/davip/Desktop/Projeto MIPS - AOC/d_mem.v Line: 16
-    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[19]" to the node "write_back_data[19]" into an OR gate File: C:/Users/davip/Desktop/Projeto MIPS - AOC/d_mem.v Line: 16
-    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[20]" to the node "write_back_data[20]" into an OR gate File: C:/Users/davip/Desktop/Projeto MIPS - AOC/d_mem.v Line: 16
-    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[21]" to the node "write_back_data[21]" into an OR gate File: C:/Users/davip/Desktop/Projeto MIPS - AOC/d_mem.v Line: 16
-    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[22]" to the node "write_back_data[22]" into an OR gate File: C:/Users/davip/Desktop/Projeto MIPS - AOC/d_mem.v Line: 16
-    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[23]" to the node "write_back_data[23]" into an OR gate File: C:/Users/davip/Desktop/Projeto MIPS - AOC/d_mem.v Line: 16
-    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[24]" to the node "write_back_data[24]" into an OR gate File: C:/Users/davip/Desktop/Projeto MIPS - AOC/d_mem.v Line: 16
-    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[25]" to the node "write_back_data[25]" into an OR gate File: C:/Users/davip/Desktop/Projeto MIPS - AOC/d_mem.v Line: 16
-    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[26]" to the node "write_back_data[26]" into an OR gate File: C:/Users/davip/Desktop/Projeto MIPS - AOC/d_mem.v Line: 16
-    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[27]" to the node "write_back_data[27]" into an OR gate File: C:/Users/davip/Desktop/Projeto MIPS - AOC/d_mem.v Line: 16
-    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[28]" to the node "write_back_data[28]" into an OR gate File: C:/Users/davip/Desktop/Projeto MIPS - AOC/d_mem.v Line: 16
-    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[29]" to the node "write_back_data[29]" into an OR gate File: C:/Users/davip/Desktop/Projeto MIPS - AOC/d_mem.v Line: 16
-    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[30]" to the node "write_back_data[30]" into an OR gate File: C:/Users/davip/Desktop/Projeto MIPS - AOC/d_mem.v Line: 16
-    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[31]" to the node "write_back_data[31]" into an OR gate File: C:/Users/davip/Desktop/Projeto MIPS - AOC/d_mem.v Line: 16
+    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[0]" to the node "write_back_data[0]" into an OR gate File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v Line: 16
+    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[1]" to the node "write_back_data[1]" into an OR gate File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v Line: 16
+    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[2]" to the node "write_back_data[2]" into an OR gate File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v Line: 16
+    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[3]" to the node "write_back_data[3]" into an OR gate File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v Line: 16
+    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[4]" to the node "write_back_data[4]" into an OR gate File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v Line: 16
+    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[5]" to the node "write_back_data[5]" into an OR gate File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v Line: 16
+    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[6]" to the node "write_back_data[6]" into an OR gate File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v Line: 16
+    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[7]" to the node "write_back_data[7]" into an OR gate File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v Line: 16
+    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[8]" to the node "write_back_data[8]" into an OR gate File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v Line: 16
+    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[9]" to the node "write_back_data[9]" into an OR gate File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v Line: 16
+    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[10]" to the node "write_back_data[10]" into an OR gate File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v Line: 16
+    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[11]" to the node "write_back_data[11]" into an OR gate File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v Line: 16
+    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[12]" to the node "write_back_data[12]" into an OR gate File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v Line: 16
+    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[13]" to the node "write_back_data[13]" into an OR gate File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v Line: 16
+    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[14]" to the node "write_back_data[14]" into an OR gate File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v Line: 16
+    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[15]" to the node "write_back_data[15]" into an OR gate File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v Line: 16
+    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[16]" to the node "write_back_data[16]" into an OR gate File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v Line: 16
+    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[17]" to the node "write_back_data[17]" into an OR gate File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v Line: 16
+    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[18]" to the node "write_back_data[18]" into an OR gate File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v Line: 16
+    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[19]" to the node "write_back_data[19]" into an OR gate File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v Line: 16
+    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[20]" to the node "write_back_data[20]" into an OR gate File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v Line: 16
+    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[21]" to the node "write_back_data[21]" into an OR gate File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v Line: 16
+    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[22]" to the node "write_back_data[22]" into an OR gate File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v Line: 16
+    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[23]" to the node "write_back_data[23]" into an OR gate File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v Line: 16
+    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[24]" to the node "write_back_data[24]" into an OR gate File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v Line: 16
+    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[25]" to the node "write_back_data[25]" into an OR gate File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v Line: 16
+    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[26]" to the node "write_back_data[26]" into an OR gate File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v Line: 16
+    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[27]" to the node "write_back_data[27]" into an OR gate File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v Line: 16
+    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[28]" to the node "write_back_data[28]" into an OR gate File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v Line: 16
+    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[29]" to the node "write_back_data[29]" into an OR gate File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v Line: 16
+    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[30]" to the node "write_back_data[30]" into an OR gate File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v Line: 16
+    Warning (13047): Converted the fan-out from the tri-state buffer "d_mem:data_memory|ReadData[31]" to the node "write_back_data[31]" into an OR gate File: C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/d_mem.v Line: 16
 Info (286030): Timing-Driven Synthesis is running
-Info (144001): Generated suppressed messages file C:/Users/davip/Desktop/Projeto MIPS - AOC/output_files/tentar.map.smsg
+Info (144001): Generated suppressed messages file C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/output_files/tentar.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 5450 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 5521 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 2 input pins
     Info (21059): Implemented 96 output pins
-    Info (21061): Implemented 5352 logic cells
+    Info (21061): Implemented 5423 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 43 warnings
-    Info: Peak virtual memory: 4915 megabytes
-    Info: Processing ended: Thu Jul 24 16:00:35 2025
-    Info: Elapsed time: 00:00:17
-    Info: Total CPU time (on all processors): 00:00:25
+    Info: Peak virtual memory: 4921 megabytes
+    Info: Processing ended: Thu Jul 24 18:29:03 2025
+    Info: Elapsed time: 00:01:06
+    Info: Total CPU time (on all processors): 00:01:10
 
 
 +------------------------------------------+
 ; Analysis & Synthesis Suppressed Messages ;
 +------------------------------------------+
-The suppressed messages can be found in C:/Users/davip/Desktop/Projeto MIPS - AOC/output_files/tentar.map.smsg.
+The suppressed messages can be found in C:/Users/davip/Desktop/codigos/verilog/Arquitetura_software/Projeto2VA/src/output_files/tentar.map.smsg.
 
 

@@ -21,13 +21,13 @@ module mips_processor(
     wire [31:0] pc_current, pc_next, pc_plus_4; // dados do PC
     wire [31:0] instruction; // instrucao
     wire [31:0] read_data_1, read_data_2; // dados lidos do registrador
-	 wire [31:0] sign_extended_immediate; // imediato extendido para 32 bits
+	 wire [31:0] sign_extended_immediate, zero_extended_immediate, extended_immediate; // imediato extendido para 32 bits
 	 wire [31:0] alu_in_1, alu_in_2, alu_result; // entradas + saida principal da ula
     wire [31:0] mem_read_data, write_back_data; // dado lido / dado a ser escrito
     wire [31:0] jump_address, branch_address, branch_address_offset; // endereco de jump / endereco da branch + offset da branch
     wire [4:0]  write_reg_addr, final_write_reg_addr; // onde o dado sera escrito no regfile
     wire [31:0] pc_next_temp, pc_next_jal; // pc_next temporarios
-	 wire [31:0] data_to_reg_temp; // dado a ser escrito (temporario), sera decidido com um mux em caso de JAL
+	 wire [31:0] data_to_reg_temp, data_to_reg_final; // dado a ser escrito (temporario), sera decidido com um mux em caso de JAL
 
 	 //sinais de controle
     wire        reg_dest, branch, mem_read, mem_to_reg, mem_write;
@@ -87,6 +87,10 @@ module mips_processor(
     // extensor de sinal
     extensor_de_sinal sign_extender ( .imediato(instruction[15:0]), .extensor_out(sign_extended_immediate) );
 	 
+	 assign zero_extended_immediate = {16'b0, instruction[15:0]};
+	 
+	 assign extended_immediate = (alu_op == 3'b100) ? zero_extended_immediate : sign_extended_immediate; // ALUOp 100 usa extensor zero (ORI...)
+	 
 	 
 	 // Unidade de controle da ULA, decide a operacao a ser realizada na ULA
 	 ULA_CTRL ula_control ( .ALUOp (alu_op), .func(instruction[5:0]), .ula_op_out(alu_control) );
@@ -101,7 +105,7 @@ module mips_processor(
     // MUX para a segunda entrada da ULA
     assign alu_in_2 = (alu_src == 2'b00) ? read_data_2: // Instrucoes gerais tipo R
 							 (alu_src == 2'b11) ? read_data_1: // Especifico para Shift Logical Variable, inverte in_1 com in_2
-							 (alu_src == 2'b01) ? sign_extended_immediate : // Instrucoes tipo I
+							 (alu_src == 2'b01) ? extended_immediate : // Instrucoes tipo I
 							 shamt_extended; // Caso especifico para usar shamt (SLL, SRA...)
 	 
     //instancia da ula
@@ -110,7 +114,7 @@ module mips_processor(
 	 assign ula_result_out = alu_result; // saida do processador
     
     // Shift left 2 (Multiplica imediato por 4 para calcular offset da branch)
-	 assign branch_address_offset = sign_extended_immediate << 2;
+	 assign branch_address_offset = extended_immediate << 2;
 
 
     // data memory
@@ -128,7 +132,10 @@ module mips_processor(
     // mux que seleciona o que sera escrito entre a memoria lida, e o resultado da ULA
 	assign data_to_reg_temp = mem_to_reg ? mem_read_data : alu_result;
 	
+	// Caso especial de LUI
+   assign data_to_reg_final = (alu_op == 3'b111) ? {instruction[15:0], 16'b0} : data_to_reg_temp;
+	
    // mux para jal, define se escreve o dado do mux anterior, ou PC + 4 caso chame JAL
-	assign write_back_data = jal_dest ? pc_next_jal : data_to_reg_temp;
+	assign write_back_data = jal_dest ? pc_next_jal : data_to_reg_final;
 
 endmodule

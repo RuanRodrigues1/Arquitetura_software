@@ -1,5 +1,5 @@
 Flow report for tentar
-Thu Jul 24 16:00:35 2025
+Thu Jul 24 18:29:03 2025
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Thu Jul 24 16:00:35 2025       ;
+; Flow Status                     ; Successful - Thu Jul 24 18:29:03 2025       ;
 ; Quartus Prime Version           ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                   ; tentar                                      ;
 ; Top-level Entity Name           ; mips_processor                              ;
@@ -68,7 +68,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 07/24/2025 16:00:18 ;
+; Start date & time ; 07/24/2025 18:27:58 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; tentar              ;
 +-------------------+---------------------+
@@ -79,7 +79,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+----------------------------------------+---------------+----------------+-------------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name    ; Section Id        ;
 +--------------------------------------+----------------------------------------+---------------+----------------+-------------------+
-; COMPILER_SIGNATURE_ID                ; 115202510330195.175338361816784        ; --            ; --             ; --                ;
+; COMPILER_SIGNATURE_ID                ; 115202510330195.175339247845316        ; --            ; --             ; --                ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --             ; tb_mips_processor ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; tb_mips_processor                      ; --            ; --             ; eda_simulation    ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                            ; --            ; --             ; eda_simulation    ;
@@ -106,8 +106,8 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:17     ; 1.0                     ; 4915 MB             ; 00:00:25                           ;
-; Total                ; 00:00:17     ; --                      ; --                  ; 00:00:25                           ;
+; Analysis & Synthesis ; 00:01:05     ; 1.0                     ; 4921 MB             ; 00:01:10                           ;
+; Total                ; 00:01:05     ; --                      ; --                  ; 00:01:10                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

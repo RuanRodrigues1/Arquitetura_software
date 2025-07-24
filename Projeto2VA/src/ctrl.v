@@ -54,7 +54,7 @@ module ctrl(
 			
 			6'b101011: begin MemWrite=1; ALUSrc=2'b01; ALUOp=3'b000; end // SW
 			
-			6'b001111: begin MemWrite=1; ALUOp=3'b000; end // LUI
+			6'b001111: begin RegWrite=1; ALUOp=3'b111; end // LUI
 			
 			6'b000100: begin Branch=1; ALUOp=3'b001; end // BEQ
 			

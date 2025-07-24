@@ -20,6 +20,8 @@ module ULA_CTRL(
     // Códigos de operação da ULA
     localparam OP_AND = 4'b0000;
     localparam OP_OR  = 4'b0001;
+	 localparam OP_XOR = 4'b1011;
+	 localparam OP_NOR = 4'b1100;
     localparam OP_ADD = 4'b0010;
     localparam OP_SUB = 4'b0110;
     localparam OP_SLT = 4'b0111;
@@ -40,6 +42,8 @@ module ULA_CTRL(
                 6'b100010: ula_op_out = OP_SUB; // sub
                 6'b100100: ula_op_out = OP_AND; // and
                 6'b100101: ula_op_out = OP_OR;  // or
+					 6'b100110: ula_op_out = OP_XOR; // xor
+					 6'b100111: ula_op_out = OP_NOR; // nor
                 6'b101010: ula_op_out = OP_SLT; // slt
                 default:   ula_op_out = 4'bxxxx; // Operação não definida
             endcase
